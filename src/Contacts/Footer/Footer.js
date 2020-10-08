@@ -132,13 +132,12 @@ class Footer extends React.Component {
 										</div>
 										<nav className="b-footer__content-nav">
 											<ul>
-												<li><a href="home.html">Home</a></li>
-												<li><a href="404.html">Pages</a></li>
-												<li><a href="listings.html">Inventory</a></li>
-												<li><a href="about.html">About</a></li>
-												<li><a href="404.html">Services</a></li>
-												<li><a href="blog.html">Blog</a></li>
-												<li><a href="listTable.html">Shop</a></li>
+												<li><a href="home.html">Acceuil</a></li>
+												<li><a href="404.html">Aéroport de Roland-Garros</a></li>
+												<li><a href="listings.html">Sainte-Marie</a></li>
+												<li><a href="about.html">Nos Conditions</a></li>
+												
+												
 												<li><a href="contacts.html">Contact</a></li>
 											</ul>
 										</nav>

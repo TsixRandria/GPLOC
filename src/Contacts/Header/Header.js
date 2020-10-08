@@ -1,5 +1,7 @@
 import React from 'react';
 
+import {li} from 'react-router-dom';
+
 
 
 class Header extends React.Component {
@@ -98,34 +100,15 @@ class Header extends React.Component {
 									<div className="collapse navbar-collapse navbar-main-slide" id="nav">
 										<ul className="navbar-nav-menu">
 											<li className="dropdown">
-												<a className="dropdown-toggle" data-toggle='dropdown' href="home.html">Home <span className="fa fa-caret-down"></span></a>
-												<ul className="dropdown-menu h-nav">
-													<li><a href="home.html">Home Page 1</a></li>
-													<li><a href="home-2.html">Home Page 2</a></li>
-												</ul>
+												<a className="dropdown-toggle" href="/">ACCEUIL <span className="fa fa-caret-down"></span></a>
+												
 											</li>
-											<li className="dropdown">
-												<a className="dropdown-toggle" data-toggle='dropdown' href="#">Grid <span className="fa fa-caret-down"></span></a>
-												<ul className="dropdown-menu h-nav">
-													<li><a href="listings.html">listing 1</a></li>
-													<li><a href="listingsTwo.html">listing 2</a></li>
-													<li><a href="listTable.html">listing 3</a></li>
-													<li><a href="listTableTwo.html">listing 4</a></li>
-												</ul>
-											</li>
-											<li><a href="compare.html">compare</a></li>
-											<li><a href="about.html">About</a></li>
-											<li><a href="article.html">Services</a></li>
-											<li className="dropdown">
-												<a className="dropdown-toggle" data-toggle='dropdown' href="#">Blog <span className="fa fa-caret-down"></span></a>
-												<ul className="dropdown-menu h-nav">
-													<li><a href="blog.html">Blog 1</a></li>
-													<li><a href="blogTwo.html">Blog 2</a></li>
-													<li><a href="404.html">Page 404</a></li>
-												</ul>
-											</li>
-											<li><a href="submit1.html">Shop</a></li>
-											<li><a href="/Contact.js">Contact</a></li>
+											
+											<li><a href="compare.html">Aéroport de Roland-Garros</a></li>
+											<li><a href="about.html">Sainte-Marie</a></li>
+											<li><a href="article.html">Nos Conditions</a></li>
+											
+											<li to="/Contact"><a href="/Contact">Contact</a></li>
 										</ul>
 									</div>
 								</div>

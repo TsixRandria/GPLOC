@@ -9,23 +9,23 @@ class Slider extends React.Component {
 					<div id="carousel" className="slide carousel carousel-fade">
 						<div className="carousel-inner">
 							<div className="item active">
-								<img src="media/main-slider/4.jpg" alt="sliderImg" />
+								<img src="media/main-slider/image1.jpg" alt="sliderImg" />
 								<div className="container">
 									<div className="carousel-caption b-slider__info">
-										<h3>Find your dream car</h3>
-										<h2>MercedesBenz <br/>CLS63 AMG</h2>
-										<p>Model 2015 <span>$214,900</span></p>
+										<h3>Location de voiture à la Réunion</h3>
+										<h2>Aéroport de la Réunion Roland-Garros</h2>
+										<p>Depuis <span>10 ans</span></p>
 										<a className="btn m-btn" href="detail.html">see details<span className="fa fa-angle-right"></span></a>
 									</div>
 								</div>
 							</div>
 							<div className="item">
-								<img src="media/main-slider/2.jpg" alt="sliderImg" />
+								<img src="media/main-slider/image2.jpg" alt="sliderImg" />
 								<div className="container">
 									<div className="carousel-caption b-slider__info">
-										<h3>Find your dream car</h3>
-										<h2>MercedesBenz <br/>CLS63 AMG</h2>
-										<p>Model 2015 <span>$214,900</span></p>
+										<h3>Location de voiture à la Réunion</h3>
+										<h2>Sainte-Marie</h2>
+										<p>Depuis  <span>10 ans</span></p>
 										<a className="btn m-btn" href="detail.html">see details<span className="fa fa-angle-right"></span></a>
 									</div>
 								</div>
