@@ -8,11 +8,8 @@ import Guides from './Components/Guides/Guides';
  class Home extends Component {
     render() {
         return (
-            <div>
-                <Header />
-                <About />
-                <Guides />
-            </div>
+            <>
+			</>
         )
     }
 }
