@@ -1,67 +1,30 @@
 import React from 'react';
+import { BrowserRouter , Route } from 'react-router-dom'
+import './App.scss';
 
-
-import './css/animate.css';
-import './css/home-2.css';
-import './css/bootstrap.css';
-import './css/colors.css';
-import './css/colors-demo.css';
-import './css/blog.css';
-import './css/compare.css';
-import './css/custom.css';
-import './css/detail.css';
-import './css/doc.css';
-import './css/font-awesome.min.css';
-import './css/home-2.css';
-import './css/jquery.bxslider.css';
-import './css/listings.css';
-import './css/master.css';
-import './css/pages.css';
-import './css/responsive.css';
-import './css/site-colors.css';
-import './css/start-page.css';
-import './css/submits.css';
-import './css/theme.css';
-
-
-
-
-import Header from './components/Header/Header';
-
-
-import Slider from './components/Contenue/Slider';
-import Search from './components/Contenue/Search';
-import World from './components/Contenue/World';
-import Welcome from './components/Contenue/Welcome';
-import Client from './components/Contenue/Client';
-import Asks from './components/Contenue/Asks';
-
-
-
-import Footer from './components/Footer/Footer';
-
+import Topbar from './Pages/Topbar/Topbar.js';
+import Navbar from './Pages/Navbar/Navbar.js';
+import Home from './Pages/Home/Home.js';
+import Contact from './Pages/Contact/Contact.js';
+import Signup from './Pages/Signup/Signup.js';
+import Login from './Pages/Login/Login.js';
+import Aeroport from './Pages/Aeroport/Aeroport.js';
+import Sainte from './Pages/Sainte/Sainte.js';
+import Condition from './Pages/Condition/Condition'
 
 function App() {
   return (
-    <>
-      <Header />
-
-      <Slider />
-
-      <Search />
-
-      <World />
-
-      <Welcome />
-
-      <Client />
-
-      <Asks />
-
-      <Footer />
-
-      
-    </>
+    <BrowserRouter>
+      <Topbar />
+      <Navbar />
+      <Route exact path='/' component={Home} />
+      <Route exact path='/Contact' component={Contact} />
+      <Route exact path='/Login' component={Login} />
+      <Route exact path='/Signup' component={Signup} />
+      <Route exact path='/Aeroport' component={Aeroport} />
+      <Route exact path='/Sainte' component={Sainte} />
+      <Route exact path='/Condition' component={Condition} />
+    </BrowserRouter>
   );
 }
 

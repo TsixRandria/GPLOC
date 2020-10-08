@@ -1,0 +1,79 @@
+.b-nav{
+    padding: 30px 0 25px 0;
+}
+
+.b-nav__logo{
+    float:left;
+    padding: 8px 0 0 5px;
+    background: url(/images/logo/logo.png) left top no-repeat;
+    text-transform: uppercase;
+}
+
+.b-nav__logo h3{
+    margin:0;
+    font-size:26px;
+    line-height:20px
+}
+
+.b-nav__logo h3 a{
+    text-decoration: none;
+    font:700 26px 'Titillium Web', sans-serif;
+}
+
+.b-nav__logo h2{
+    margin: 0;
+    line-height:15px;
+    font-size:11px;
+    margin-top: -5px;
+}
+
+.b-nav__logo h2 a{
+    font:300 11px 'Open Sans',sans-serif;
+    text-decoration: none;
+}
+
+.b-nav__list{
+    float:right;
+}
+
+.b-nav__list ul{
+    margin-top: 20px;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.b-nav__list ul li{
+    float:left;
+    list-style: none;
+    height: 38px;
+}
+.navbar-nav-menu > li > .dropdown-menu{
+	display: block !important;
+	height: 0px;
+	overflow: hidden;
+	opacity: 0;
+}
+.navbar-nav-menu > li.open > .dropdown-menu{
+	height: auto;
+	padding-bottom: 3px;
+	opacity: 1;
+	-webkit-transition: all 500ms ease 0s;
+	-moz-transition: all 500ms ease 0s;
+	-o-transition: all 500ms ease 0s;
+	transition: all 500ms ease 0s;
+}
+.b-nav__list ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 14px 15px 14px;
+    font:700 13px 'Open Sans',sans-serif;
+}
+
+.b-nav__list ul li a:hover{
+    border-bottom: 3px solid #f76d2b;
+}
+
+.b-nav__list ul li a span.fa{
+    margin-left: 4px;
+}
