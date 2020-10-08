@@ -44,7 +44,6 @@ class World extends React.Component {
 						</div>
 					</div>
 				</section>
-
 			</>
 		)
 	}

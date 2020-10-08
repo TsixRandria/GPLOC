@@ -89,13 +89,9 @@ class Search extends React.Component {
 					</div>
 				</section>
 
-
 			</>
-
 		)
 	}
 }
-
-
 
 export default Search;

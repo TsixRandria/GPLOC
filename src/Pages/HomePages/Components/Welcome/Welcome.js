@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 class Welcome extends React.Component {
 	render() {
 		return (
@@ -37,16 +36,15 @@ class Welcome extends React.Component {
 							</div>
 							<div className="col-xs-12 col-md-6">
 								<div className="b-welcome__text wow zoomInUp" data-wow-delay="0.3s">
-									<h2>LOCATION DE VOITURE A LA REUNION</h2>
-									<h3>Besoin d'une voiture de location à la Réunion ?</h3>
-									<p>Pour louer une voiture à la Réunion, rien de plus simple ! <b/>Réservez votre voiture en ligne et pas chère avec GP Location</p>
-									<p>Vous effectuez votre réservation en ligne, <b/>Réservez 7j/7 24h/24 , <b/> votre voiture à la réunion au meilleur prix sur notre site Internet</p>
+									<h2>WORLD'S LEADING CAR DEALER</h2>
+									<h3>WELCOME TO AUTOCLUB</h3>
+									<p>Curabitur libero. Donec facilisis velit eudsl est. Phasellus consequat. Aenean vita quam. Vivamus et nunc. Nunc consequat sem velde metus imperdiet lacinia. Dui estter neque molestie necd dignissim ac hendrerit quis purus. Etiam sit amet vec convallis massa scelerisque mattis. Sed placerat leo nec.</p>
+									<p>Ipsum midne ultrices magn eu tempor quam dolor eustrl sem. Donec quis dolel Donec pede quam placerat alterl tristique faucibus posuere lobortis.</p>
 									<ul>
-										<li><span className="fa fa-check"></span>Prise en charge à l'aéroport ou au port avec votre véhicule </li>
-										<li><span className="fa fa-check"></span>Kilométrage illimité, assurances incluses </li>
-										<li><span className="fa fa-check"></span>Assistance 7j/7, 24h/24 </li>
-										<li><span className="fa fa-check"></span>Large choix de véhicules récents </li>
-										<li><span className="fa fa-check"></span>Ouvert 7j/7 y compris jours fériés </li>
+										<li><span className="fa fa-check"></span>Donec facilisis velit eu est phasellus consequat </li>
+										<li><span className="fa fa-check"></span>Aenean vitae quam. Vivamus et nunc nunc consequat</li>
+										<li><span className="fa fa-check"></span>Sem vel metus imperdiet lacinia enean </li>
+										<li><span className="fa fa-check"></span>Dapibus aliquam augue fusce eleifend quisque tels</li>
 									</ul>
 								</div>
 							</div>
@@ -80,9 +78,6 @@ class Welcome extends React.Component {
 						</div>
 					</div>
 				</section>
-
-				
-
 			</>
 		)
 	}

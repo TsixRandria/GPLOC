@@ -1,12 +1,11 @@
 import React from 'react';
 
 
-
-class Client extends React.Component {
+class Home extends React.Component {
 	render() {
-		return  (
+		return (
 			<>
-				<section className="b-homeReviews">
+				<div className="b-homeReviews">
 					<div className="container">
 						<h1 className="s-title wow zoomInUp" data-wow-delay="0.3s">WHAT CUSTOMERS SAYING</h1>
 						<div id="carousel-small-revHome" className="owl-carousel enable-owl-carousel" data-items="2" data-navigation="true" data-auto-play="true" data-stop-on-hover="true" data-items-desktop="2" data-items-desktop-small="2" data-items-tablet="1" data-items-tablet-small="1">
@@ -76,12 +75,12 @@ class Client extends React.Component {
 							</div>
 						</div>
 					</div>
-				</section>
-
+				</div>
 			</>
-
 		)
 	}
 }
 
-export default Client;
+
+
+export default Home;

@@ -7,9 +7,9 @@ class Slider extends React.Component {
 			<>
 				<section className="b-slider"> 
 					<div id="carousel" className="slide carousel carousel-fade">
-						<fieldset className="carousel-inner">
+						<div className="carousel-inner">
 							<div className="item active">
-								<img src="contenu/slider1.jpg" alt="slider1" />
+								<img src="media/main-slider/4.jpg" alt="sliderImg" />
 								<div className="container">
 									<div className="carousel-caption b-slider__info">
 										<h3>Find your dream car</h3>
@@ -20,7 +20,7 @@ class Slider extends React.Component {
 								</div>
 							</div>
 							<div className="item">
-								<img src="contenu/slider2.jpg" alt="sliderImg" />
+								<img src="media/main-slider/2.jpg" alt="sliderImg" />
 								<div className="container">
 									<div className="carousel-caption b-slider__info">
 										<h3>Find your dream car</h3>
@@ -30,7 +30,7 @@ class Slider extends React.Component {
 									</div>
 								</div>
 							</div>
-						</fieldset>
+						</div>
 						<a className="carousel-control right" href="#carousel" data-slide="next">
 							<span className="fa fa-angle-right m-control-right"></span>
 						</a>
@@ -39,6 +39,7 @@ class Slider extends React.Component {
 						</a>
 					</div>
 				</section>
+
 			</>
 		)
 	}
