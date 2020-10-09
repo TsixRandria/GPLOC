@@ -1,23 +1,25 @@
 import React from 'react';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {BrowserRouter, Route} from 'react-router-dom';
 
-import Header from './Pages/Header/Header';
-import Footer from './Pages/Footer/Footer';
-import HomePage from './Pages/HomePages/HomePage';
+import Header from './Pages/Header/Header.js';
+import HomePages from './Pages/HomePages/HomePage.js';
+import Contact from './Pages/Contact/Contact.js';
+import Aeroport from './Pages/Aeroport/Aeroport.js';
+
+import Footer from './Pages/Footer/Footer.js';
 
 
 
 
 function App() {
   return (
-    <>
-      <Router>
+    <BrowserRouter>
         <Header />
-        <HomePage />
+        <Route exact path='/' component={HomePages} />
+        <Route exact path='/Contact' component={Contact} />
+        <Route exact path='/Aeroport' component={Aeroport}/>
         <Footer />
-      </Router>
-      
-    </>
+    </BrowserRouter>
   );
 }
 
