@@ -1,6 +1,7 @@
 import React from 'react';
 
 
+
 import Slider from './Components/Slider/Slider';
 import Search from './Components/Search/Search';
 import World from './Components/World/World';
@@ -13,17 +14,9 @@ class HomePage extends React.Component {
 	render() {
 		return (
 			<>
-				<div>
-					<Slider />
-				</div>
-				<div>
-		        	<Search />
-		        </div>
-		        <div>
-		        	<World />
-		        </div>
-		        
-
+				<Slider />
+		        <Search />
+		        <World />
 		        <Welcome />
 		        <Home />
 		        <Asks />

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom'
 
 
 class Footer extends React.Component {
@@ -132,13 +132,13 @@ class Footer extends React.Component {
 										</div>
 										<nav className="b-footer__content-nav">
 											<ul>
-												<li><a href="home.html">Acceuil</a></li>
-												<li><a href="404.html">Aéroport de Roland-Garros</a></li>
-												<li><a href="listings.html">Sainte-Marie</a></li>
-												<li><a href="about.html">Nos Conditions</a></li>
+												<li><Link to="/">Acceuil</Link></li>
+												<li><Link to="/Aeroport">Aéroport de Roland-Garros</Link></li>
+												<li><Link to="/Saint">Sainte-Marie</Link></li>
+												<li><Link to="Condition">Nos Conditions</Link></li>
 												
 												
-												<li><a href="contacts.html">Contact</a></li>
+												<li><Link to="/Contact">Contact</Link></li>
 											</ul>
 										</nav>
 									</div>
