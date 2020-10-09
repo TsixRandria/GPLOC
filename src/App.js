@@ -5,7 +5,7 @@ import Header from './Pages/Header/Header';
 import Footer from './Pages/Footer/Footer';
 import HomePage from './Pages/HomePages/HomePage';
 
-
+import Register from './Pages/Header/components/Register/Register';
 
 
 function App() {
@@ -13,7 +13,9 @@ function App() {
     <>
       <Router>
         <Header />
-        <HomePage />
+        
+
+        <Register />
         <Footer />
       </Router>
       
