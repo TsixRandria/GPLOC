@@ -36,8 +36,8 @@ class Welcome extends React.Component {
 							</div>
 							<div className="col-xs-12 col-md-6">
 								<div className="b-welcome__text wow zoomInUp" data-wow-delay="0.3s">
-									<h2>WORLD'S LEADING CAR DEALER</h2>
-									<h3>WELCOME TO AUTOCLUB</h3>
+									<h2>Vous effectuez votre réservation en ligne</h2>
+									<h3>Bienvenue sur GP Loction </h3>
 									<p>Curabitur libero. Donec facilisis velit eudsl est. Phasellus consequat. Aenean vita quam. Vivamus et nunc. Nunc consequat sem velde metus imperdiet lacinia. Dui estter neque molestie necd dignissim ac hendrerit quis purus. Etiam sit amet vec convallis massa scelerisque mattis. Sed placerat leo nec.</p>
 									<p>Ipsum midne ultrices magn eu tempor quam dolor eustrl sem. Donec quis dolel Donec pede quam placerat alterl tristique faucibus posuere lobortis.</p>
 									<ul>
