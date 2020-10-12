@@ -32,52 +32,19 @@ class Footer extends React.Component {
 										</article>
 									</aside>
 								</div>
-								<div className="col-md-3 col-xs-6">
-									<div className="b-info__latest">
-										<h3 className="wow slideInUp" data-wow-delay="0.3s">LATEST AUTOS</h3>
-										<div className="b-info__latest-article wow slideInUp" data-wow-delay="0.3s">
-											<div className="b-info__latest-article-photo m-audi"></div>
-											<div className="b-info__latest-article-info">
-												<h6><a href="detail.html">MERCEDES-AMG GT S</a></h6>
-												<div className="b-featured__item-links m-auto">
-													<a href="#">Used</a>
-													<a href="#">2014</a>
-													<a href="#">Manual</a>
-													<a href="#">Orange</a>
-													<a href="#">Petrol</a>
-												</div>
-												<p><span className="fa fa-tachometer"></span> 35,000 KM</p>
-											</div>
+							<div className="col-md-3 col-xs-6">
+									<address className="b-info__contacts wow slideInUp" data-wow-delay="0.3s">
+										<p>Location de véhicules</p>
+										<div className="b-info__contacts-item">
+				 				           <a href=" " className="text-white-400 hover:text-gray-500">Nos voitures</a>
 										</div>
-										<div className="b-info__latest-article wow slideInUp" data-wow-delay="0.3s">
-											<div className="b-info__latest-article-photo m-audiSpyder"></div>
-											<div className="b-info__latest-article-info">
-												<h6><a href="detail.html">AUDI R8 SPYDER V-8</a></h6>
-												<div className="b-featured__item-links m-auto">
-													<a href="#">Used</a>
-													<a href="#">2014</a>
-													<a href="#">Manual</a>
-													<a href="#">Orange</a>
-													<a href="#">Petrol</a>
-												</div>
-												<p><span className="fa fa-tachometer"></span> 35,000 KM</p>
-											</div>
+										<div className="b-info__contacts-item">
+				 				           <a href=" " className="text-white-400 hover:text-gray-500">Conditions générales de location</a>
 										</div>
-										<div className="b-info__latest-article wow slideInUp" data-wow-delay="0.3s">
-											<div className="b-info__latest-article-photo m-aston"></div>
-											<div className="b-info__latest-article-info">
-												<h6><a href="detail.html">ASTON MARTIN VANTAGE</a></h6>
-												<div className="b-featured__item-links m-auto">
-													<a href="#">Used</a>
-													<a href="#">2014</a>
-													<a href="#">Manual</a>
-													<a href="#">Orange</a>
-													<a href="#">Petrol</a>
-												</div>
-												<p><span className="fa fa-tachometer"></span> 35,000 KM</p>
-											</div>
+										<div className="b-info__contacts-item">											
+				 				           <a href=" " className="text-white-400 hover:text-gray-500">Espace client</a>
 										</div>
-									</div>
+									</address>
 								</div>
 								<div className="col-md-3 col-xs-6">
 									<address className="b-info__contacts wow slideInUp" data-wow-delay="0.3s">
@@ -97,7 +64,7 @@ class Footer extends React.Component {
 										</div>
 										<div className="b-info__contacts-item">
 											<span className="fa fa-envelope"></span>
-											<em>Email:  gplocation@gmail.com</em>
+				 				           <a href=" " className="text-white-400 hover:text-gray-500">Contact</a>
 										</div>
 									</address>
 									<address className="b-info__map">
@@ -108,24 +75,16 @@ class Footer extends React.Component {
 									<address className="b-info__contacts wow slideInUp" data-wow-delay="0.3s">
 										<p>Prise en charge</p>
 										<div className="b-info__contacts-item">
-											<em><a href="#" className="text-white">Aéroport de la Réunion Roland-Garros</a></em>
+				 				           <a href=" " className="text-white-400 hover:text-gray-500">Aéroport de la Réunion Roland-Garros</a>
 										</div>
 										<div className="b-info__contacts-item">
-											<span className="fa fa-phone"></span>
-											<em>Phone:  06 92 370 380</em>
+				 				           <a href=" " className="text-white-400 hover:text-gray-500">Sainte-Marie</a>
 										</div>
 										<div className="b-info__contacts-item">											
-											<span className="fa fa-fax"></span>
-											<em>97438 Sainte Marie</em>
-										</div>
-										<div className="b-info__contacts-item">
-											<span className="fa fa-envelope"></span>
-											<em>Email:  gplocation@gmail.com</em>
+				 				           <a href=" " className="text-white-400 hover:text-gray-500">Mentions légales</a>
 										</div>
 									</address>
-									<address className="b-info__map">
-										<a href="contacts.html">Open Location Map</a>
-									</address>
+									
 								</div>
 							</div>
 						</div>
