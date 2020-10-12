@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
-
+import { Link } from 'react-router-dom';
+import './Footer.css';
 
 class Footer extends React.Component {
 	render() {
@@ -13,17 +13,18 @@ class Footer extends React.Component {
 								<div className="col-md-3 col-xs-6">
 									<aside className="b-info__aside wow zoomInLeft" data-wow-delay="0.3s">
 										<article className="b-info__aside-article">
-											<h3>OPENING HOURS</h3>
+											<h3>Les avantages</h3>
 											<div className="b-info__aside-article-item">
-												<h6>Sales Department</h6>
-												<p>Mon-Sat : 8:00am - 5:00pm<span>&middot;</span> 
-													Sunday is closed</p>
+												
+												<ul className="text">
+													<li>Prise en charge à l'aéroport ou au port avec votre véhicule</li>
+													<li>Kilométrage illimité, assurances incluses</li>
+													<li>Assistance 7j/7, 24h/24</li>
+													<li>Large choix de véhicules récents</li>
+													<li>Ouvert 7j/7 y compris jours fériés</li>
+												</ul>
 											</div>
-											<div className="b-info__aside-article-item">
-												<h6>Service Department</h6>
-												<p>Mon-Sat : 8:00am - 5:00pm<span>&middot;</span> 
-													Sunday is closed</p>
-											</div>
+											
 										</article>
 										<article className="b-info__aside-article">
 											<h3>Réservez 7j/7 24h/24</h3>
@@ -36,13 +37,13 @@ class Footer extends React.Component {
 									<address className="b-info__contacts wow slideInUp" data-wow-delay="0.3s">
 										<p>Location de véhicules</p>
 										<div className="b-info__contacts-item">
-				 				           <a href=" " className="text-white-400 hover:text-gray-500">Nos voitures</a>
+				 				           <a href="/Voitures" className="text">Nos voitures</a>
 										</div>
 										<div className="b-info__contacts-item">
-				 				           <a href=" " className="text-white-400 hover:text-gray-500">Conditions générales de location</a>
+				 				           <a href="/Condition" className="text">Conditions générales de location</a>
 										</div>
 										<div className="b-info__contacts-item">											
-				 				           <a href=" " className="text-white-400 hover:text-gray-500">Espace client</a>
+				 				           <a href="/Signup" className="text">Espace client</a>
 										</div>
 									</address>
 								</div>
@@ -56,7 +57,7 @@ class Footer extends React.Component {
 										</div>
 										<div className="b-info__contacts-item">
 											<span className="fa fa-phone"></span>
-											<em>Phone:  06 92 370 380</em>
+											<em>06 92 370 380</em>
 										</div>
 										<div className="b-info__contacts-item">											
 											<span className="fa fa-fax"></span>
@@ -64,24 +65,23 @@ class Footer extends React.Component {
 										</div>
 										<div className="b-info__contacts-item">
 											<span className="fa fa-envelope"></span>
-				 				           <a href=" " className="text-white-400 hover:text-gray-500">Contact</a>
+				 				           <a href="/Contact" className="text">Contact</a>
 										</div>
 									</address>
-									<address className="b-info__map">
-										<a href="contacts.html">Open Location Map</a>
+									<address className="b-info__map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14910.02604721598!2d55.511276!3d-20.891932!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdd91245bf0d2d552!2sGP+Location!5e0!3m2!1sfr!2sfr!4v1483431590185" width="264" height="144" frameborder="0" allowfullscreen></iframe>
 									</address>
 								</div>
 								<div className="col-md-3 col-xs-6">
 									<address className="b-info__contacts wow slideInUp" data-wow-delay="0.3s">
 										<p>Prise en charge</p>
 										<div className="b-info__contacts-item">
-				 				           <a href=" " className="text-white-400 hover:text-gray-500">Aéroport de la Réunion Roland-Garros</a>
+				 				           <a href="/Aeroport" className="text">Aéroport de la Réunion Roland-Garros</a>
 										</div>
 										<div className="b-info__contacts-item">
-				 				           <a href=" " className="text-white-400 hover:text-gray-500">Sainte-Marie</a>
+				 				           <a href="/Saint" className="text">Sainte-Marie</a>
 										</div>
 										<div className="b-info__contacts-item">											
-				 				           <a href=" " className="text-white-400 hover:text-gray-500">Mentions légales</a>
+				 				           <a href="/Mentions-légales" className="text">Mentions légales</a>
 										</div>
 									</address>
 									
