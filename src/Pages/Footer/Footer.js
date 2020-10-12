@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
-
+import { Link } from 'react-router-dom';
+import './Footer.css';
 
 class Footer extends React.Component {
 	render() {
@@ -10,20 +10,21 @@ class Footer extends React.Component {
 					<div className="b-info">
 						<div className="container">
 							<div className="row">
-								<div className="col-md-4 col-xs-12">
+								<div className="col-md-3 col-xs-6">
 									<aside className="b-info__aside wow zoomInLeft" data-wow-delay="0.3s">
 										<article className="b-info__aside-article">
-											<h3>OPENING HOURS</h3>
+											<h3>Les avantages</h3>
 											<div className="b-info__aside-article-item">
-												<h6>Sales Department</h6>
-												<p>Mon-Sat : 8:00am - 5:00pm<span>&middot;</span> 
-													Sunday is closed</p>
+												
+												<ul className="text">
+													<li>Prise en charge à l'aéroport ou au port avec votre véhicule</li>
+													<li>Kilométrage illimité, assurances incluses</li>
+													<li>Assistance 7j/7, 24h/24</li>
+													<li>Large choix de véhicules récents</li>
+													<li>Ouvert 7j/7 y compris jours fériés</li>
+												</ul>
 											</div>
-											<div className="b-info__aside-article-item">
-												<h6>Service Department</h6>
-												<p>Mon-Sat : 8:00am - 5:00pm<span>&middot;</span> 
-													Sunday is closed</p>
-											</div>
+											
 										</article>
 										<article className="b-info__aside-article">
 											<h3>Réservez 7j/7 24h/24</h3>
@@ -32,56 +33,23 @@ class Footer extends React.Component {
 										</article>
 									</aside>
 								</div>
-								<div className="col-md-4 col-xs-12">
-									<div className="b-info__latest">
-										<h3 className="wow slideInUp" data-wow-delay="0.3s">LATEST AUTOS</h3>
-										<div className="b-info__latest-article wow slideInUp" data-wow-delay="0.3s">
-											<div className="b-info__latest-article-photo m-audi"></div>
-											<div className="b-info__latest-article-info">
-												<h6><a href="detail.html">MERCEDES-AMG GT S</a></h6>
-												<div className="b-featured__item-links m-auto">
-													<a href="#">Used</a>
-													<a href="#">2014</a>
-													<a href="#">Manual</a>
-													<a href="#">Orange</a>
-													<a href="#">Petrol</a>
-												</div>
-												<p><span className="fa fa-tachometer"></span> 35,000 KM</p>
-											</div>
-										</div>
-										<div className="b-info__latest-article wow slideInUp" data-wow-delay="0.3s">
-											<div className="b-info__latest-article-photo m-audiSpyder"></div>
-											<div className="b-info__latest-article-info">
-												<h6><a href="detail.html">AUDI R8 SPYDER V-8</a></h6>
-												<div className="b-featured__item-links m-auto">
-													<a href="#">Used</a>
-													<a href="#">2014</a>
-													<a href="#">Manual</a>
-													<a href="#">Orange</a>
-													<a href="#">Petrol</a>
-												</div>
-												<p><span className="fa fa-tachometer"></span> 35,000 KM</p>
-											</div>
-										</div>
-										<div className="b-info__latest-article wow slideInUp" data-wow-delay="0.3s">
-											<div className="b-info__latest-article-photo m-aston"></div>
-											<div className="b-info__latest-article-info">
-												<h6><a href="detail.html">ASTON MARTIN VANTAGE</a></h6>
-												<div className="b-featured__item-links m-auto">
-													<a href="#">Used</a>
-													<a href="#">2014</a>
-													<a href="#">Manual</a>
-													<a href="#">Orange</a>
-													<a href="#">Petrol</a>
-												</div>
-												<p><span className="fa fa-tachometer"></span> 35,000 KM</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div className="col-md-4 col-xs-12">
+							<div className="col-md-3 col-xs-6">
 									<address className="b-info__contacts wow slideInUp" data-wow-delay="0.3s">
-										<p>contact us</p>
+										<p>Location de véhicules</p>
+										<div className="b-info__contacts-item">
+				 				           <a href="/Voitures" className="text">Nos voitures</a>
+										</div>
+										<div className="b-info__contacts-item">
+				 				           <a href="/Condition" className="text">Conditions générales de location</a>
+										</div>
+										<div className="b-info__contacts-item">											
+				 				           <a href="/Signup" className="text">Espace client</a>
+										</div>
+									</address>
+								</div>
+								<div className="col-md-3 col-xs-6">
+									<address className="b-info__contacts wow slideInUp" data-wow-delay="0.3s">
+										<p>GP Location</p>
 										<div className="b-info__contacts-item">
 											<span className="fa fa-map-marker"></span>
 											<em>34
@@ -89,24 +57,40 @@ class Footer extends React.Component {
 										</div>
 										<div className="b-info__contacts-item">
 											<span className="fa fa-phone"></span>
-											<em>Phone:  06 92 370 380</em>
+											<em>06 92 370 380</em>
 										</div>
-										<div className="b-info__contacts-item">
+										<div className="b-info__contacts-item">											
 											<span className="fa fa-fax"></span>
-											<em>FAX:  000-00-000-00</em>
+											<em>97438 Sainte Marie</em>
 										</div>
 										<div className="b-info__contacts-item">
 											<span className="fa fa-envelope"></span>
-											<em>Email:  gplocation@gmail.com</em>
+				 				           <a href="/Contact" className="text">Contact</a>
 										</div>
 									</address>
-									<address className="b-info__map">
-										<a href="contacts.html">Open Location Map</a>
+									<address className="b-info__map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14910.02604721598!2d55.511276!3d-20.891932!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdd91245bf0d2d552!2sGP+Location!5e0!3m2!1sfr!2sfr!4v1483431590185" width="264" height="144" frameborder="0" allowfullscreen></iframe>
 									</address>
+								</div>
+								<div className="col-md-3 col-xs-6">
+									<address className="b-info__contacts wow slideInUp" data-wow-delay="0.3s">
+										<p>Prise en charge</p>
+										<div className="b-info__contacts-item">
+				 				           <a href="/Aeroport" className="text">Aéroport de la Réunion Roland-Garros</a>
+										</div>
+										<div className="b-info__contacts-item">
+				 				           <a href="/Saint" className="text">Sainte-Marie</a>
+										</div>
+										<div className="b-info__contacts-item">											
+				 				           <a href="/Mentions-légales" className="text">Mentions légales</a>
+										</div>
+									</address>
+									
 								</div>
 							</div>
 						</div>
+
 					</div>
+
 
 					<footer className="b-footer">
 						<a id="to-top" href="#this-is-top"><i className="fa fa-chevron-up"></i></a>
