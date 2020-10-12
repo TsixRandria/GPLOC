@@ -6,12 +6,11 @@ class OffreAeroport extends Component {
         	<>
 				<section className="b-what s-shadow m-home">
 					<div className="container">
-						<h3 className="s-titleBg wow zoomInUp" data-wow-delay="0.5s" style={{visibility: "visible", animationDelay: "0.5s", animationName: "zoomInUp"}}>CUSTOMERS ARE IMPORTANT FOR US</h3><br/>
-						<h2 className="s-title wow zoomInUp" data-wow-delay="0.5s" style={{visibility: "visible", animationDelay: "0.5s", animationName: "zoomInUp"}}>WHAT WE OFFERS</h2>
+						<p className="s-title wow zoomInUp" data-wow-delay="0.5s" style={{visibility: "visible", animationDelay: "0.5s", animationName: "zoomInUp"}}>Votre voiture de location à l'aéroport de la Réunion Roland-Garros !</p>
 						<div className="row">
 							<div className="col-sm-4 col-xs-12">
 								<div className="b-world__item wow zoomInLeft" data-wow-delay="0.5s" style={{visibility: "visible", animationDelay: "0.5s", animationName: "ZoomInLeft"}}>
-									<img className="img-responsive" src="media/370x200/wolks.jpg" alt="wolks"/>
+									<img className="img-responsive" src="media/370x200/car3.jpg" alt="wolks"/>
 									<div className="b-world__item-val">
 										<span className="b-world__item-val-title">WE OFFER</span>
 									</div>
@@ -22,7 +21,7 @@ class OffreAeroport extends Component {
 							</div>
 							<div className="col-sm-4 col-xs-12">
 								<div className="b-world__item wow zoomInUp" data-wow-delay="0.5s" style={{visibility: "visible", animationDelay: "0.5s", animationName: "zoomInUp"}}>
-									<img className="img-responsive" src="media/370x200/mazda.jpg" alt="mazda"/>
+									<img className="img-responsive" src="media/370x200/car2.jpg" alt="mazda"/>
 									<div className="b-world__item-val">
 										<span className="b-world__item-val-title">WE ARE THE</span>
 									</div>
@@ -33,13 +32,13 @@ class OffreAeroport extends Component {
 							</div>
 							<div className="col-sm-4 col-xs-12">
 								<div className="b-world__item wow zoomInRight" data-wow-delay="0.5s" style={{visibility: "visible", animationDelay: "0.5s", animationName: "zoomInUp"}}>
-									<img className="img-responsive" src="media/370x200/chevrolet.jpg" alt="chevrolet"/>
+									<img className="img-responsive" src="media/370x200/car3.jpg" alt="chevrolet"/>
 									<div className="b-world__item-val">
-										<span className="b-world__item-val-title">OUR CUSTOMERS GET</span>
+										<span className="b-world__item-val-title">Chevrolet</span>
 									</div>
 									<h2>Multipoint Safety Check</h2>
-									<p>Curabitur libero. Donec facilisis velit eu est. Phasellus cons quat. Aenean vitae quam. Vivamus et nunc. Nunc consequ
-									sem velde metus imp         erdiet lacinia.</p>
+									<p>Voiture fiable. resistante. Aucune panne en 8 annees. Bonne petite voiture toute simple.
+										Vous pouvez y aller en urbain, sur route, en montagne, le moteur et les equipements ne vous lacherons pas.</p>
 								</div>
 							</div>
 						</div>

@@ -12,12 +12,11 @@ import React, { Component } from 'react'
 							<h2 className="s-title">WHY CHOOSE US</h2>
 							<p>Curabitur libero. Donec facilisis velit eu est. Phasellus cons quat. Aenean vitae quam. Vivamus etyd nunc. Nunc consequsem velde metus imperdiet lacinia. Lorem ipsum dolor sit amet sed consectetur adipisicing elit sed do eiusmod.</p>
 							<ul className="s-list">
-								<li><span className="fa fa-check"></span>Donec facilisis velit eu est phasellus consequat quis nostrud</li>
-								<li><span className="fa fa-check"></span>Aenean vitae quam. Vivamus et nunc nunc conseq</li>
-								<li><span className="fa fa-check"></span>Sem vel metus imperdiet lacinia enean </li>
-								<li><span className="fa fa-check"></span>Dapibus aliquam augue fusce eleifend quisque tels</li>
-								<li><span className="fa fa-check"></span>Lorem ipsum dolor sit amet, consectetur </li>
-								<li><span className="fa fa-check"></span>Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore Magna </li>
+								<li><span className="fa fa-check"></span>Prise en charge à l'aéroport ou au port avec votre véhicule</li>
+								<li><span className="fa fa-check"></span>Kilométrage illimité, assurances incluses</li>
+								<li><span className="fa fa-check"></span>Assistance 7j/7, 24h/24</li>
+								<li><span className="fa fa-check"></span>Large choix de véhicules récents </li>
+								<li><span className="fa fa-check"></span>Ouvert 7j/7 y compris jours fériés</li>
 							</ul>
 						</div>
 					</div>
