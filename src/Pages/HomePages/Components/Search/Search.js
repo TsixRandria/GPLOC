@@ -1,4 +1,5 @@
 import React from 'react';
+import './Style.css';
 
 
 class Search extends React.Component {
@@ -16,7 +17,7 @@ class Search extends React.Component {
 										<div className="m-firstSelects">
 											<div className="col-xs-4">
 												<select name="select1">
-													<option value="0" >Aéroport de la Réunion</option>
+													<option value="0" >Aéroport</option>
 													<option value="1" selected="selected">Sainte-Marie</option>
 													
 												</select>
@@ -77,7 +78,7 @@ class Search extends React.Component {
 										<div className="m-secondSelects">
 											<div className="col-xs-4">
 												<select name="select1">
-													<option value="0" >Aéroport de la Réunion</option>
+													<option value="0" >Aéroport</option>
 													<option value="1" selected="selected">Sainte-Marie</option>
 													
 												</select>

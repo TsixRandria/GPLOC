@@ -15,7 +15,7 @@ class Welcome extends React.Component {
 												<div className="b-welcome__services-img m-auto">
 													<span className="fa fa-cab"></span>
 												</div>
-												<h3>AUTO LOANS</h3>
+												<h3>Support</h3>
 											</div>
 										</div>
 										<div className="col-xs-12 text-right visible-md visible-lg">
@@ -28,7 +28,7 @@ class Welcome extends React.Component {
 												<div className="b-welcome__services-img m-buying">
 													<span className="fa fa-book"></span>
 												</div>
-												<h3>Buying guide</h3>
+												<h3>guide</h3>
 											</div>
 										</div>
 									</div>
@@ -36,15 +36,18 @@ class Welcome extends React.Component {
 							</div>
 							<div className="col-xs-12 col-md-6">
 								<div className="b-welcome__text wow zoomInUp" data-wow-delay="0.3s">
-									<h2>Vous effectuez votre réservation en ligne</h2>
+									<h2>Guides ultimes</h2>
 									<h3>Bienvenue sur GP Loction </h3>
-									<p>Curabitur libero. Donec facilisis velit eudsl est. Phasellus consequat. Aenean vita quam. Vivamus et nunc. Nunc consequat sem velde metus imperdiet lacinia. Dui estter neque molestie necd dignissim ac hendrerit quis purus. Etiam sit amet vec convallis massa scelerisque mattis. Sed placerat leo nec.</p>
-									<p>Ipsum midne ultrices magn eu tempor quam dolor eustrl sem. Donec quis dolel Donec pede quam placerat alterl tristique faucibus posuere lobortis.</p>
+									<p>Vous arrivez à la Réunion via le port ou l'aéroport ? Située à proximité, notre agence vous propose le service de location de voiture tout en évitant les files d'attente.</p>
+									<p>
+									<h4>Découvrir l'île de la Réunion à bord d'une voiture de location</h4>
+										Pour découvrir l'île de la Réunion, une voiture est indispensable. En effet, le réseau de transport public étant limité, avec une voiture de location vous serez libre dans vos déplacements.</p>
 									<ul>
-										<li><span className="fa fa-check"></span>Donec facilisis velit eu est phasellus consequat </li>
-										<li><span className="fa fa-check"></span>Aenean vitae quam. Vivamus et nunc nunc consequat</li>
-										<li><span className="fa fa-check"></span>Sem vel metus imperdiet lacinia enean </li>
-										<li><span className="fa fa-check"></span>Dapibus aliquam augue fusce eleifend quisque tels</li>
+										<li><span className="fa fa-check"></span>Prise en charge à l'aéroport ou au port avec votre véhicule </li>
+										<li><span className="fa fa-check"></span>Kilométrage illimité, assurances incluses</li>
+										<li><span className="fa fa-check"></span>Assistance 7j/7, 24h/24</li>
+										<li><span className="fa fa-check"></span>Large choix de véhicules récents</li>
+										<li><span className="fa fa-check"></span>Ouvert 7j/7 y compris jours fériés</li>
 									</ul>
 								</div>
 							</div>
@@ -56,7 +59,7 @@ class Welcome extends React.Component {
 												<div className="b-welcome__services-img m-trade">
 													<span className="fa fa-male"></span>
 												</div>
-												<h3>Trade-Ins</h3>
+												<h3>Services</h3>
 											</div>
 										</div>
 										<div className="col-xs-12 text-left visible-md visible-lg">
@@ -67,9 +70,9 @@ class Welcome extends React.Component {
 										<div className="col-xs-12 m-padding">
 											<div className="b-welcome__services-support wow zoomInRight" data-wow-delay="0.3s">
 												<div className="b-welcome__services-img m-support">
-													
+												<span className="fa fa-home"></span>
 												</div>
-												<h3>24/7 support</h3>
+												<h3>A propos</h3>
 											</div>
 										</div> 
 									</div>

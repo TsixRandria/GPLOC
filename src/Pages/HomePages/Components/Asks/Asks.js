@@ -1,4 +1,5 @@
 import React from 'react';
+import './Style.css';
 
 
 class Asks extends React.Component {

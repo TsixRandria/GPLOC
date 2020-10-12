@@ -91,8 +91,8 @@ a.btn.m-btn.m-pay:hover,
 .b-compare__links a.btn.m-btn span.fa,
 .b-items__aside-sell-info a.btn.m-btn:hover span.fa
 {
-    background-color:#0004fc;
-    fill: #0004fc;
+    background-color:#0011a7;
+    fill: #0011a7;
 }
 
 /* Color 1*/
@@ -141,8 +141,8 @@ a.btn.m-btn.m-pay:hover,
 .b-items__pagination-main > span.m-active a,
 .b-items__pagination-main > span:hover a
 {
-    color:#0004fc;
-    fill:#0004fc;
+    color:#0011a7;
+    fill:#0011a7;
 }
 
 /* Border Color */
@@ -176,7 +176,7 @@ a.btn.m-btn.m-pay:hover,
 .b-auto__main-nav li:hover:before,
 .b-auto__main-nav li.active:before
 {
-    border-color:#0004fc;
+    border-color:#0011a7;
 }
 
 

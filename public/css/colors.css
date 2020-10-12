@@ -94,8 +94,8 @@ a.btn.m-btn.m-pay:hover,
 .m-index .b-count .m-main,
 .demo_changer .demo-icon
 {
-    background-color:#0004fc;
-    fill: #0004fc;
+    background-color:#0011a7;
+    fill: #0011a7;
 }
 
 
@@ -144,8 +144,8 @@ a.btn.m-btn.m-pay:hover,
 .b-items__pagination-main > span.m-active a,
 .b-items__pagination-main > span:hover a
 {
-    color:#0004fc;
-    fill:#0004fc;
+    color:#0011a7;
+    fill:#0011a7;
 }
 
 .b-nav__list ul li a:hover,
@@ -179,17 +179,17 @@ a.btn.m-btn.m-pay:hover,
 .b-auto__main-nav li.active:before,
 .b-welcome__services-circle
 {
-    border-color:#0004fc;
+    border-color:#0011a7;
 }
 
 .b-submit__aside-step-inner-info-triangle
 {
-    border-left-color:#0004fc;
+    border-left-color:#0011a7;
 }
 
 .b-compare__block-title > a,.b-more__info-block-title a
 {
-    border-bottom-color:#0004fc;
+    border-bottom-color:#0011a7;
 }
 
 /* Color two */

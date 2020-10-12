@@ -25,7 +25,7 @@ function App() {
         <Route exact path='/Aeroport' component={Aeroport}/>
         <Route exact path='/Saint' component={Saint}/>
         <Route exact path='/Condition' component={Condition}/>
-         <Footer /> 
+          <Footer />  
     </BrowserRouter>
   );
 }

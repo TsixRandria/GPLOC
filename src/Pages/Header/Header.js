@@ -60,7 +60,7 @@ class Header extends React.Component {
 									<div className="b-topBar__lang">
 										<div className="dropdown">
 											<a href="#" className="dropdown-toggle" data-toggle='dropdown'>Language</a>
-											<a className="m-langLink dropdown-toggle" data-toggle='dropdown' href="#"><span className="b-topBar__lang-flag m-en"></span>EN<span className="fa fa-caret-down"></span></a>
+											<a className="m-langLink dropdown-toggle" data-toggle='dropdown' href="#"><span className="b-topBar__lang-flag m-en"></span>FR<span className="fa fa-caret-down"></span></a>
 											<ul className="dropdown-menu h-lang">
 												<li><a className="m-langLink dropdown-toggle" data-toggle='dropdown' href="#"><span className="b-topBar__lang-flag m-en"></span>EN</a></li>
 												<li><a className="m-langLink dropdown-toggle" data-toggle='dropdown' href="#"><span className="b-topBar__lang-flag m-es"></span>ES</a></li>
@@ -96,7 +96,7 @@ class Header extends React.Component {
 										<div className="collapse navbar-collapse navbar-main-slide" id="nav">
 											<ul className="navbar-nav-menu">
 												<li className="dropdown">
-													<Link to="/">Home</Link>								
+													<Link to="/">Acceuil</Link>								
 												</li>
 												
 												<li><Link to="/Aeroport">Aéroport de Roland-Garros</Link></li>
