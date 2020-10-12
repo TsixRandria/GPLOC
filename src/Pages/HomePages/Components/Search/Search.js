@@ -10,7 +10,7 @@ class Search extends React.Component {
 					<div className="container">
 						<h1 className="wow zoomInUp" data-wow-delay="0.3s">Besoin d'une voiture de location à la Réunion ?</h1>
 						<div className="b-search__main wow zoomInUp" data-wow-delay="0.3s">
-							<h4>champ obligatoire</h4>
+							<h4>Pour louer une voiture à la Réunion, rien de plus simple !<br/> Réservez votre voiture en ligne et pas chère avec GP Location.</h4>
 							<form action="listingsTwo.html" method="POST" className="b-search__main-form">
 								<div className="row">
 									<div className="col-xs-12 col-md-8">
@@ -78,7 +78,7 @@ class Search extends React.Component {
 										<div className="m-secondSelects">
 											<div className="col-xs-4">
 												<select name="select1">
-													<option value="0" >Aéroport</option>
+													<option value="0" >Aéroport de la Réunion</option>
 													<option value="1" selected="selected">Sainte-Marie</option>
 													
 												</select>

@@ -37,7 +37,7 @@ class Welcome extends React.Component {
 							<div className="col-xs-12 col-md-6">
 								<div className="b-welcome__text wow zoomInUp" data-wow-delay="0.3s">
 									<h2>Guides ultimes</h2>
-									<h3>Bienvenue sur GP Loction </h3>
+									<h3>Bienvenue sur GP Location </h3>
 									<p>Vous arrivez à la Réunion via le port ou l'aéroport ? Située à proximité, notre agence vous propose le service de location de voiture tout en évitant les files d'attente.</p>
 									<p>
 									<h4>Découvrir l'île de la Réunion à bord d'une voiture de location</h4>
