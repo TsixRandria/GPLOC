@@ -10,7 +10,7 @@ class Footer extends React.Component {
 					<div className="b-info">
 						<div className="container">
 							<div className="row">
-								<div className="col-md-4 col-xs-12">
+								<div className="col-md-3 col-xs-6">
 									<aside className="b-info__aside wow zoomInLeft" data-wow-delay="0.3s">
 										<article className="b-info__aside-article">
 											<h3>OPENING HOURS</h3>
@@ -32,7 +32,7 @@ class Footer extends React.Component {
 										</article>
 									</aside>
 								</div>
-								<div className="col-md-4 col-xs-12">
+								<div className="col-md-3 col-xs-6">
 									<div className="b-info__latest">
 										<h3 className="wow slideInUp" data-wow-delay="0.3s">LATEST AUTOS</h3>
 										<div className="b-info__latest-article wow slideInUp" data-wow-delay="0.3s">
@@ -79,9 +79,9 @@ class Footer extends React.Component {
 										</div>
 									</div>
 								</div>
-								<div className="col-md-4 col-xs-12">
+								<div className="col-md-3 col-xs-6">
 									<address className="b-info__contacts wow slideInUp" data-wow-delay="0.3s">
-										<p>contact us</p>
+										<p>GP Location</p>
 										<div className="b-info__contacts-item">
 											<span className="fa fa-map-marker"></span>
 											<em>34
@@ -91,9 +91,32 @@ class Footer extends React.Component {
 											<span className="fa fa-phone"></span>
 											<em>Phone:  06 92 370 380</em>
 										</div>
-										<div className="b-info__contacts-item">
+										<div className="b-info__contacts-item">											
 											<span className="fa fa-fax"></span>
-											<em>FAX:  000-00-000-00</em>
+											<em>97438 Sainte Marie</em>
+										</div>
+										<div className="b-info__contacts-item">
+											<span className="fa fa-envelope"></span>
+											<em>Email:  gplocation@gmail.com</em>
+										</div>
+									</address>
+									<address className="b-info__map">
+										<a href="contacts.html">Open Location Map</a>
+									</address>
+								</div>
+								<div className="col-md-3 col-xs-6">
+									<address className="b-info__contacts wow slideInUp" data-wow-delay="0.3s">
+										<p>Prise en charge</p>
+										<div className="b-info__contacts-item">
+											<em><a href="#" className="text-white">Aéroport de la Réunion Roland-Garros</a></em>
+										</div>
+										<div className="b-info__contacts-item">
+											<span className="fa fa-phone"></span>
+											<em>Phone:  06 92 370 380</em>
+										</div>
+										<div className="b-info__contacts-item">											
+											<span className="fa fa-fax"></span>
+											<em>97438 Sainte Marie</em>
 										</div>
 										<div className="b-info__contacts-item">
 											<span className="fa fa-envelope"></span>
@@ -106,7 +129,9 @@ class Footer extends React.Component {
 								</div>
 							</div>
 						</div>
+
 					</div>
+
 
 					<footer className="b-footer">
 						<a id="to-top" href="#this-is-top"><i className="fa fa-chevron-up"></i></a>

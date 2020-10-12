@@ -96,12 +96,12 @@ class Header extends React.Component {
 										<div className="collapse navbar-collapse navbar-main-slide" id="nav">
 											<ul className="navbar-nav-menu">
 												<li className="dropdown">
-													<Link to="/">Acceuil</Link>								
+													<Link to="/">Accueil</Link>							
 												</li>
 												
 												<li><Link to="/Aeroport">Aéroport de Roland-Garros</Link></li>
 												<li><Link to="Saint">Sainte-Marie</Link></li>
-												<li><Link to="/Condition">Nos Conditions</Link></li>
+												<li><Link to="/Condition">Conditions générales de location</Link></li>
 												
 	
 											</ul>
