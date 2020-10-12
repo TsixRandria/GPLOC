@@ -22,7 +22,7 @@ class Contact extends React.Component {
 							<div className="col-md-6">
 								<div className="b-contacts__form">
 									<header className="b-contacts__form-header s-lineDownLeft wow zoomInUp" data-wow-delay="0.5s">
-										<h2 className="s-titleDet">Vous voulez contacter GP Location ?</h2> 
+										<h2 className="s-titleDet">voulez-vous contacter GP Location ?</h2> 
 									</header>
 									<p className=" wow zoomInUp" data-wow-delay="0.5s">Vous rencontrez une difficulté lors de votre réservation sur notre site ? Vous souhaitez nous faire part d'un bug ?</p>
 									<div id="success"></div>
@@ -30,7 +30,7 @@ class Contact extends React.Component {
 										
 										<input type="text" placeholder="VOTRE NOM" defaultValue="" name="user-name" id="user-name" />
 										<input type="text" placeholder="VOTRE PRENOM" defaultValue="" name="user-name" id="user-lastname" />
-										<input type="text" placeholder="VOTRE ADDRESS EMAIL " defaultValue="" name="user-email" id="user-email" />
+										<input type="text" placeholder="VOTRE ADRESSE EMAIL " defaultValue="" name="user-email" id="user-email" />
 										<input type="text" placeholder="VOTRE NUMERO TELEPHONE." defaultValue="" name="user-phone" id="user-phone" />
 										<textarea id="user-message" name="user-message" placeholder="COMMENTAIRE/SUGGESTIONS/FEEDBACK"></textarea>
 										<button type="submit" className="btn m-btn">VALIDER    <span className="fa fa-angle-right"></span></button>
@@ -45,11 +45,11 @@ class Contact extends React.Component {
 											<div className="row">
 												<div className="col-md-6 col-xs-12">
 													<h5>Département des locations</h5>
-													<p>Mon-Sat : 8:00am - 5:00pm <br/>Le dimanche est fermé</p>
+													<p>Lun-Ven : 8:00am - 4:00pm <br/>Le dimanche est fermé</p>
 												</div>
 												<div className="col-md-6 col-xs-12">
 													<h5>Département des services</h5>
-													<p>Mon-Sat : 8:00am - 5:00pm <br/>Le dimanche est fermé</p>
+													<p>Lun-Ven : 8:00am - 4:00pm <br/>Le dimanche est fermé</p>
 												</div>
 											</div>
 										</div>
@@ -59,14 +59,14 @@ class Contact extends React.Component {
 										<address className="b-contacts__address-info-main wow zoomInUp" data-wow-delay="0.5s">
 											<div className="b-contacts__address-info-main-item">
 												<span className="fa fa-home"></span>
-												ADDRESS  <p>34 rue de la Plantation </p>
+												ADRESSE  <p>34 rue de la Plantation </p>
 												
 											</div>
 											<div className="b-contacts__address-info-main-item">
 												<div className="row">
 													<div className="col-lg-3 col-md-4 col-xs-12">
 														<span className="fa fa-phone"></span>
-														PHONE
+														TELEPHONE
 													</div>
 													<div className="col-lg-9 col-md-8 col-xs-12">
 														<em>06 92 370 380</em>
