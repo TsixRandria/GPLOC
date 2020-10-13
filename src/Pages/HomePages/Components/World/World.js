@@ -1,4 +1,5 @@
 import React from 'react';
+import './Style.css';
 
 
 class World extends React.Component {
@@ -25,6 +26,7 @@ class World extends React.Component {
 										</ul>
 									</p>
 								</div>
+
 							</div>
 							<div className="col-sm-4 col-xs-12">
 								<div className="b-world__item wow zoomInLeft" data-wow-delay="0.3s">
@@ -60,10 +62,17 @@ class World extends React.Component {
 									</p>
 								</div>
 							</div>
+							<div className="col-sm-12 col-xs-12">
+							<div className="row">
+								<a href="article.html" className="btn m-btn m-readMore wow zoomInUp lien" data-wow-delay="0.5s" style={{visibility: "visible", animationDelay: "0.5s", animationName: "zoomInUp"}}>view listings<span class="fa fa-angle-right"></span></a>
+							</div>
 						</div>
-					</div>
-				</section>
+						</div>
 
+					</div>
+				
+
+						</section>
 			</>
 		)
 	}
