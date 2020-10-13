@@ -1,0 +1,176 @@
+  [1m[35m (1361.7ms)[0m  [1m[35mCREATE DATABASE "todos_api_development" ENCODING = 'unicode'[0m
+  [1m[35m (802.6ms)[0m  [1m[35mCREATE DATABASE "todos_api_test" ENCODING = 'unicode'[0m
+Started GET "/" for ::1 at 2020-10-13 10:26:13 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/jean-claude/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/jean-claude/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 9.4ms | Allocations: 407)
+Completed 200 OK in 16ms (Views: 13.4ms | ActiveRecord: 0.0ms | Allocations: 2242)
+
+
+Started GET "/favicon.ico" for ::1 at 2020-10-13 10:26:14 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (81.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (73.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6307339340477153265)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateClients (20201013075107)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (209.3ms)[0m  [1m[35mCREATE TABLE "clients" ("id" bigserial primary key, "nom" text, "prenom" text, "telephone" character varying, "mot_de_passe" character varying, "email" text, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20201013075107"]]
+  [1m[35m (18.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-10-13 07:53:40.205188"], ["updated_at", "2020-10-13 07:53:40.205188"]]
+  [1m[35m (4.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(6307339340477153265)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2020-10-13 11:20:45 +0300
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 269)
+
+
+  
+SyntaxError (/home/jean-claude/Documents/GPLOC/todos-api/app/controllers/application_controller.rb:27: dynamic constant assignment
+            Client_id = decoded_token[0]['Client_i...
+            ^~~~~~~~~
+/home/jean-claude/Documents/GPLOC/todos-api/app/controllers/application_controller.rb:40: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/application_controller.rb:27: dynamic constant assignment
+app/controllers/application_controller.rb:40: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/application_controller.rb:27: dynamic constant assignment
+app/controllers/application_controller.rb:40: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/" for ::1 at 2020-10-13 11:28:19 +0300
+Started GET "/" for ::1 at 2020-10-13 11:30:56 +0300
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/jean-claude/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/jean-claude/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 23.4ms | Allocations: 295)
+Completed 200 OK in 27ms (Views: 25.7ms | ActiveRecord: 0.0ms | Allocations: 1538)
+
+
+Started GET "/" for ::1 at 2020-10-13 11:36:18 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/jean-claude/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/jean-claude/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 8.6ms | Allocations: 179)
+Completed 200 OK in 16ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 944)
+
+
+Started GET "/" for ::1 at 2020-10-13 11:36:20 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/jean-claude/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/jean-claude/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.6ms | Allocations: 8)
+Completed 200 OK in 4ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 241)
+
+
+Started GET "/" for ::1 at 2020-10-13 11:36:21 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/jean-claude/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/jean-claude/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.8ms | Allocations: 7)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 237)
+
+
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mClient Create (0.7ms)[0m  [1m[32mINSERT INTO "clients" ("nom", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["nom", "Msgr. Raleigh McCullough"], ["created_at", "2020-10-13 08:56:11.619047"], ["updated_at", "2020-10-13 08:56:11.619047"]]
+  [1m[35m (27.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mClient Create (0.3ms)[0m  [1m[32mINSERT INTO "clients" ("nom", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["nom", "Serita Hettinger"], ["created_at", "2020-10-13 08:56:11.652172"], ["updated_at", "2020-10-13 08:56:11.652172"]]
+  [1m[35m (6.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mClient Create (0.3ms)[0m  [1m[32mINSERT INTO "clients" ("nom", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["nom", "Msgr. Fatima Steuber"], ["created_at", "2020-10-13 08:56:11.663327"], ["updated_at", "2020-10-13 08:56:11.663327"]]
+  [1m[35m (6.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mClient Create (0.9ms)[0m  [1m[32mINSERT INTO "clients" ("nom", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["nom", "Deandre Sporer"], ["created_at", "2020-10-13 08:56:11.674324"], ["updated_at", "2020-10-13 08:56:11.674324"]]
+  [1m[35m (4.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mClient Create (0.4ms)[0m  [1m[32mINSERT INTO "clients" ("nom", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["nom", "Herma Bins"], ["created_at", "2020-10-13 08:56:11.685311"], ["updated_at", "2020-10-13 08:56:11.685311"]]
+  [1m[35m (6.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mClient Create (0.4ms)[0m  [1m[32mINSERT INTO "clients" ("nom", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["nom", "Gov. Alec Konopelski"], ["created_at", "2020-10-13 08:56:11.696570"], ["updated_at", "2020-10-13 08:56:11.696570"]]
+  [1m[35m (6.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mClient Create (0.9ms)[0m  [1m[32mINSERT INTO "clients" ("nom", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["nom", "Chin Streich MD"], ["created_at", "2020-10-13 08:56:11.707762"], ["updated_at", "2020-10-13 08:56:11.707762"]]
+  [1m[35m (3.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mClient Create (0.3ms)[0m  [1m[32mINSERT INTO "clients" ("nom", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["nom", "Cecily Nienow"], ["created_at", "2020-10-13 08:56:11.718474"], ["updated_at", "2020-10-13 08:56:11.718474"]]
+  [1m[35m (6.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mClient Create (0.4ms)[0m  [1m[32mINSERT INTO "clients" ("nom", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["nom", "Pres. Esteban Glover"], ["created_at", "2020-10-13 08:56:11.731140"], ["updated_at", "2020-10-13 08:56:11.731140"]]
+  [1m[35m (3.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mClient Create (0.4ms)[0m  [1m[32mINSERT INTO "clients" ("nom", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["nom", "Quiana Rutherford"], ["created_at", "2020-10-13 08:56:11.741462"], ["updated_at", "2020-10-13 08:56:11.741462"]]
+  [1m[35m (11.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mClient Create (0.5ms)[0m  [1m[32mINSERT INTO "clients" ("nom", "prenom", "telephone", "mot_de_passe", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["nom", "Jennell Goodwin III"], ["prenom", "Kamala Medhurst"], ["telephone", "0644247726"], ["mot_de_passe", "3683-345598-5665"], ["email", "sol.schulist@mayert.name"], ["created_at", "2020-10-13 08:57:29.408373"], ["updated_at", "2020-10-13 08:57:29.408373"]]
+  [1m[35m (15.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mClient Create (0.5ms)[0m  [1m[32mINSERT INTO "clients" ("nom", "prenom", "telephone", "mot_de_passe", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["nom", "Clarita Stark"], ["prenom", "Perry Schamberger"], ["telephone", "0968832584"], ["mot_de_passe", "3771-831616-89251"], ["email", "yang@cronin-walker.net"], ["created_at", "2020-10-13 08:57:29.430094"], ["updated_at", "2020-10-13 08:57:29.430094"]]
+  [1m[35m (35.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mClient Create (0.3ms)[0m  [1m[32mINSERT INTO "clients" ("nom", "prenom", "telephone", "mot_de_passe", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["nom", "Cruz Witting"], ["prenom", "Beth Torp"], ["telephone", "0850074408"], ["mot_de_passe", "6520-6247-5979-8312-0430"], ["email", "suk_zemlak@pfannerstill-paucek.net"], ["created_at", "2020-10-13 08:57:29.474377"], ["updated_at", "2020-10-13 08:57:29.474377"]]
+  [1m[35m (5.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mClient Load (0.5ms)[0m  [1m[34mSELECT "clients".* FROM "clients"[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mClient Create (0.7ms)[0m  [1m[32mINSERT INTO "clients" ("nom", "prenom", "telephone", "mot_de_passe", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["nom", "Aura Ernser"], ["prenom", "Ms. Eloy Dach"], ["telephone", "0423832418"], ["mot_de_passe", "6007-2253-1587-7004"], ["email", "buddy.buckridge@treutel-sauer.net"], ["created_at", "2020-10-13 08:59:42.042125"], ["updated_at", "2020-10-13 08:59:42.042125"]]
+  [1m[35m (19.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mClient Create (0.3ms)[0m  [1m[32mINSERT INTO "clients" ("nom", "prenom", "telephone", "mot_de_passe", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["nom", "Valorie Kunde"], ["prenom", "Lesley Cormier"], ["telephone", "0663234576"], ["mot_de_passe", "3770-347295-06927"], ["email", "wilfredo_adams@sauer.com"], ["created_at", "2020-10-13 08:59:42.069273"], ["updated_at", "2020-10-13 08:59:42.069273"]]
+  [1m[35m (5.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mClient Create (0.3ms)[0m  [1m[32mINSERT INTO "clients" ("nom", "prenom", "telephone", "mot_de_passe", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["nom", "Francis Bogisich"], ["prenom", "Alena Mosciski"], ["telephone", "0702564899"], ["mot_de_passe", "5579-6303-9572-9704"], ["email", "willy_labadie@ondricka.co"], ["created_at", "2020-10-13 08:59:42.082049"], ["updated_at", "2020-10-13 08:59:42.082049"]]
+  [1m[35m (3.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mClient Create (0.4ms)[0m  [1m[32mINSERT INTO "clients" ("nom", "prenom", "telephone", "mot_de_passe", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["nom", "Clair Stroman"], ["prenom", "Sen. Carlo Hyatt"], ["telephone", "0999126499"], ["mot_de_passe", "3495-180530-70174"], ["email", "marcus_roberts@brakus-kovacek.info"], ["created_at", "2020-10-13 08:59:42.091518"], ["updated_at", "2020-10-13 08:59:42.091518"]]
+  [1m[35m (4.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mClient Create (0.5ms)[0m  [1m[32mINSERT INTO "clients" ("nom", "prenom", "telephone", "mot_de_passe", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["nom", "Erin Shanahan I"], ["prenom", "Judson Feest"], ["telephone", "0517767204"], ["mot_de_passe", "6759-5693-7616-5647"], ["email", "edmund.lynch@okon-purdy.biz"], ["created_at", "2020-10-13 08:59:42.103211"], ["updated_at", "2020-10-13 08:59:42.103211"]]
+  [1m[35m (3.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mClient Create (0.5ms)[0m  [1m[32mINSERT INTO "clients" ("nom", "prenom", "telephone", "mot_de_passe", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["nom", "Gregg Shields"], ["prenom", "Jonas Metz"], ["telephone", "0766380839"], ["mot_de_passe", "3489-584342-27021"], ["email", "noel@parker.co"], ["created_at", "2020-10-13 08:59:42.115663"], ["updated_at", "2020-10-13 08:59:42.115663"]]
+  [1m[35m (13.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mClient Create (0.5ms)[0m  [1m[32mINSERT INTO "clients" ("nom", "prenom", "telephone", "mot_de_passe", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["nom", "Darrell Hills II"], ["prenom", "Donnie Lind DDS"], ["telephone", "0210685289"], ["mot_de_passe", "506191222270513422"], ["email", "teena@wolf.name"], ["created_at", "2020-10-13 08:59:42.136338"], ["updated_at", "2020-10-13 08:59:42.136338"]]
+  [1m[35m (3.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mClient Create (0.5ms)[0m  [1m[32mINSERT INTO "clients" ("nom", "prenom", "telephone", "mot_de_passe", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["nom", "Scottie Blick"], ["prenom", "The Hon. Ofelia Jast"], ["telephone", "0575489992"], ["mot_de_passe", "6539-9442-2024-8872"], ["email", "gilberto@kuhn.biz"], ["created_at", "2020-10-13 08:59:42.148881"], ["updated_at", "2020-10-13 08:59:42.148881"]]
+  [1m[35m (13.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mClient Create (0.5ms)[0m  [1m[32mINSERT INTO "clients" ("nom", "prenom", "telephone", "mot_de_passe", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["nom", "Clint Veum"], ["prenom", "Georgine Metz"], ["telephone", "0028672498"], ["mot_de_passe", "6007-2267-2953-7374"], ["email", "bob_bechtelar@schowalter.com"], ["created_at", "2020-10-13 08:59:42.168870"], ["updated_at", "2020-10-13 08:59:42.168870"]]
+  [1m[35m (4.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mClient Create (0.3ms)[0m  [1m[32mINSERT INTO "clients" ("nom", "prenom", "telephone", "mot_de_passe", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["nom", "Mr. Pete Kiehn"], ["prenom", "Drew Wehner"], ["telephone", "0985264819"], ["mot_de_passe", "3788-523231-41117"], ["email", "terese@leffler.info"], ["created_at", "2020-10-13 08:59:42.181474"], ["updated_at", "2020-10-13 08:59:42.181474"]]
+  [1m[35m (3.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mClient Load (0.6ms)[0m  [1m[34mSELECT "clients".* FROM "clients"[0m
+  [1m[36mClient Load (0.9ms)[0m  [1m[34mSELECT "clients".* FROM "clients" ORDER BY "clients"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]

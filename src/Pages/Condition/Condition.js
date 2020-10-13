@@ -1,4 +1,5 @@
 import React from 'react';
+import './Condition.css';
 
 
 
@@ -26,14 +27,14 @@ class Condition extends React.Component {
 									</header>
 									<h6 className="wow zoomInUp" data-wow-delay="0.5s">La location est personnelle et non transmissible, cession et sous-location sont interdites. Seuls sont habilités à conduire le véhicule, le locataire et la (ou les) personnes désignées sur le contrat. </h6>
 									<p className="wow zoomInUp" data-wow-delay="0.5s">La location est personnelle et non transmissible, cession et sous-location sont interdites. Seuls sont habilités à conduire le véhicule, le locataire et la (ou les) personnes désignées sur le contrat.
-Seule la restitution du véhicule en parfait état et de ses documents (carte grise ou copie certifiée conforme, vignette) fait cesser la location. Tout duplicata en cas de vol sera à la charge du locataire.
-Une caution d'un montant compris entre 750 et 1 000 euros suivant la catégorie du véhicule sera demandée au locataire. Cette caution sera prise par carte bancaire (pré-autorisation non encaissée).
-Les frais de carburant sont à la charge du locataire, tout manque à la réintégration du véhicule sera facturé. L’entretien, les vidanges, le remplacement des pièces mécaniques sont à la charge du loueur. Aucun remboursement de facture ne sera effectué sans notre accord préalable.</p>
+									Seule la restitution du véhicule en parfait état et de ses documents (carte grise ou copie certifiée conforme, vignette) fait cesser la location. Tout duplicata en cas de vol sera à la charge du locataire.
+									Une caution d'un montant compris entre 750 et 1 000 euros suivant la catégorie du véhicule sera demandée au locataire. Cette caution sera prise par carte bancaire (pré-autorisation non encaissée).
+									Les frais de carburant sont à la charge du locataire, tout manque à la réintégration du véhicule sera facturé. L’entretien, les vidanges, le remplacement des pièces mécaniques sont à la charge du loueur. Aucun remboursement de facture ne sera effectué sans notre accord préalable.</p>
 									
 								</div>
 							</div>
 							<div className="col-sm-6 col-xs-12">
-								<img className="img-responsive center-block wow zoomInUp" data-wow-delay="0.5s" alt="best" src="media/about/img7.jpg" />
+								<img className="img-responsive center-block wow zoomInUp" data-wow-delay="0.5s" alt="best" src="media/about/image1.jpg" />
 							</div>
 						</div>
 					</div>
@@ -47,7 +48,7 @@ Les frais de carburant sont à la charge du locataire, tout manque à la réint�
 									<header className="s-lineDownLeft b-best__info-head">
 										<h2 className="wow zoomInUp" data-wow-delay="0.5s">RESPONSABILITÉ</h2>
 									</header>
-									<h6 className="wow zoomInUp" data-wow-delay="0.5s">Le locataire déclare que le véhicule sera conduit par lui-même ou toute autre personne figurant sur le contrat et ayant au moins 23 ans et au moins 2 ans de permis. Le locataire demeure le seul responsable en vertu de l’article 21 de l’ordonnance N58-1216 du 15 décembre 1958, des amendes, contraventions, procès verbaux et poursuites douanières contre lui. Il s’engage par conséquent à rembourser au loueur tous les frais de cette nature, éventuellement payés en ses lieux et places. Les PV ou amendes que vous aurez reçus pendant votre séjour et que vous n’aurez pas réglés, seront renvoyés avec la majoration aux services de gendarmerie ou de Police qui vous les feront parvenir. Le véhicule est livré en bon état de marche et de carrosserie avec des pneumatiques en bon état et une roue de secours complète. La pression des pneus et les niveaux devront être contrôlés par le locataire à intervalle régulier pendant la location. Nous vous demandons de prendre soin des véhicules et de nous les rendre propres. Dans le cas contraire 15€ seront prélevés sur la caution. </h6>
+									<p className="wow zoomInUp" data-wow-delay="0.5s">Le locataire déclare que le véhicule sera conduit par lui-même ou toute autre personne figurant sur le contrat et ayant au moins 23 ans et au moins 2 ans de permis. Le locataire demeure le seul responsable en vertu de l’article 21 de l’ordonnance N58-1216 du 15 décembre 1958, des amendes, contraventions, procès verbaux et poursuites douanières contre lui. Il s’engage par conséquent à rembourser au loueur tous les frais de cette nature, éventuellement payés en ses lieux et places. Les PV ou amendes que vous aurez reçus pendant votre séjour et que vous n’aurez pas réglés, seront renvoyés avec la majoration aux services de gendarmerie ou de Police qui vous les feront parvenir. Le véhicule est livré en bon état de marche et de carrosserie avec des pneumatiques en bon état et une roue de secours complète. La pression des pneus et les niveaux devront être contrôlés par le locataire à intervalle régulier pendant la location. Nous vous demandons de prendre soin des véhicules et de nous les rendre propres. Dans le cas contraire 15€ seront prélevés sur la caution. </p>
 									
 								</div>
 							</div>
@@ -70,7 +71,7 @@ Les frais de carburant sont à la charge du locataire, tout manque à la réint�
 								</div>
 							</div>
 							<div className="col-sm-6 col-xs-12">
-								<img className="img-responsive center-block wow zoomInUp" data-wow-delay="0.5s" alt="best" src="media/about/img7.jpg" />
+								<img className="img-responsive center-block wow zoomInUp" data-wow-delay="0.5s" alt="best" src="media/about/image3.jpg" />
 							</div>
 						</div>
 					</div>
@@ -95,16 +96,34 @@ Les frais de carburant sont à la charge du locataire, tout manque à la réint�
 								</div>
 							</div>
 							<div className="col-sm-6 col-xs-12">
-								<img className="img-responsive center-block wow zoomInUp" data-wow-delay="0.5s" alt="best" src="media/about/img7.jpg" />
-								<br />
-								<h5 className="wow zoomInUp" data-wow-delay="0.5s">2. QUE DOIS-JE FAIRE EN CAS DE PANNE, D’ACCIDENT, VOL, DESTRUCTION DE VEHICULE ?</h5>
-								<p className="wow zoomInUp" data-wow-delay="0.5s">En cas de panne, d’accident, de vol ou de destruction de véhicule, appelez 24 heures sur 24, 7 jours sur 7, au 0692 370 380.<br /> Tout accident doit être déclaré à GP Location dans les 48 heures. Vous bénéficiez ainsi d’un dépannage et remorquage 24h/24 et 7j/7 (exclue panne d’essence, panne de batterie, panne due a la mauvaise utilisation du locataire ).</p>
-								<p className="wow zoomInUp" data-wow-delay="0.5s"><strong>ATTENTION : En ce qui concerne l’assistance au véhicule, le locataire accepte de se conformer précisément aux instructions qui lui seront communiquées par son correspondant. Dans le cas contraire, le locataire restera financièrement responsable des prestations qu’il aura mises en œuvre sur sa seule initiative et sans l’accord préalable de son correspondant.</strong></p>
+								<img className="img-responsive center-block wow zoomInUp" data-wow-delay="0.5s" alt="best" src="media/about/image4.jpg" />
+								
 							</div>
 						</div>
 					</div>
 				</section>
 
+				<section className="b-best">
+					<div className="container">
+						<div className="row">
+							<div className="col-sm-6 col-xs-12">
+								<div className="b-best__info">
+									<header className="s-lineDownLeft b-best__info-head">
+										<h2 className="wow zoomInUp" data-wow-delay="0.5s">2. QUE DOIS-JE FAIRE EN CAS DE PANNE, D’ACCIDENT, VOL, DESTRUCTION DE VEHICULE ?</h2>
+									</header>
+									<p className="wow zoomInUp" data-wow-delay="0.5s">En cas de panne, d’accident, de vol ou de destruction de véhicule, appelez 24 heures sur 24, 7 jours sur 7, au 0692 370 380.<br /> Tout accident doit être déclaré à GP Location dans les 48 heures. Vous bénéficiez ainsi d’un dépannage et remorquage 24h/24 et 7j/7 (exclue panne d’essence, panne de batterie, panne due a la mauvaise utilisation du locataire ).</p>
+									<p className="wow zoomInUp" data-wow-delay="0.5s"><strong>ATTENTION : En ce qui concerne l’assistance au véhicule, le locataire accepte de se conformer précisément aux instructions qui lui seront communiquées par son correspondant. Dans le cas contraire, le locataire restera financièrement responsable des prestations qu’il aura mises en œuvre sur sa seule initiative et sans l’accord préalable de son correspondant.</strong></p>
+
+								</div>
+							</div>
+							<div className="col-sm-6 col-xs-12">
+								<img className="img-responsive center-block wow zoomInUp" data-wow-delay="0.5s" alt="best" src="media/about/image5.jpg" />
+							</div>
+						</div>
+					</div>
+				</section>
+
+				
 				<section className="b-best">
 					<div className="container">
 						<div className="row">
@@ -120,7 +139,7 @@ Les frais de carburant sont à la charge du locataire, tout manque à la réint�
 								</div>
 							</div>
 							<div className="col-sm-6 col-xs-12">
-								<img className="img-responsive center-block wow zoomInUp" data-wow-delay="0.5s" alt="best" src="media/about/img7.jpg" />
+								<img className="img-responsive center-block wow zoomInUp" data-wow-delay="0.5s" alt="best" src="media/about/image6.jpg" />
 							</div>
 						</div>
 					</div>
@@ -153,18 +172,19 @@ Les frais de carburant sont à la charge du locataire, tout manque à la réint�
 										<li>Une journée supplémentaire de location de la catégorie du véhicule loué sur la base du tarif général en Km illimité sera facturée à défaut de restitution à l’heure dite et passé un délai de tolérance de soixante minutes.</li>
 										<li>Les frais de relances pour impayées d’un montant forfaitaire de 50 euros TTC par relance.</li>
 										</ul>
+										<h6 className="wow zoomInUp" data-wow-delay="0.5s"><strong>ATTENTION : Il est rappelé que dans le cas ou le locataire serait impliqué dans plusieurs sinistres pendant la durée de la location, chaque sinistre donnera lieu à l’application d’une franchise selon modalités ci-dessus.</strong></h6>
 									</p>
 								</div>
 							</div>
 							<div className="col-sm-6 col-xs-12">
-								<img className="img-responsive center-block wow zoomInUp" data-wow-delay="0.5s" alt="best" src="media/about/img7.jpg" />
-								<h6 className="wow zoomInUp" data-wow-delay="0.5s"><strong>ATTENTION : Il est rappelé que dans le cas ou le locataire serait impliqué dans plusieurs sinistres pendant la durée de la location, chaque sinistre donnera lieu à l’application d’une franchise selon modalités ci-dessus.</strong></h6>
+								<img className="img-responsive center-block wow zoomInUp" data-wow-delay="0.5s" alt="best" src="media/about/image8.jpg" />
+								
 							</div>
 						</div>
 					</div>
 				</section>
 
-				<section className="b-best">
+				<div className="b-best">
 					<div className="container">
 						<div className="row">
 							<div className="col-sm-6 col-xs-12">
@@ -188,70 +208,79 @@ Les frais de carburant sont à la charge du locataire, tout manque à la réint�
 											<li>Le remorquage en cas de sinistre responsable ou sans tiers identifié.</li>
 											<li>Toutes dégradations, accidents ou panne survenus hors des voies publiques urbaines ne seront pas garanties par l’assurance, les frais éventuels seront supportés intégralement par le locataire.</li>
 										</ul>
+										<h6 className="wow zoomInUp" data-wow-delay="0.5s"><strong>ATTENTION : le locataire sera redevable des réparations induites par erreur de carburant (par exemple, du diesel dans le réservoir au lieu du super). Le locataire accepte d’ores et déjà que le loueur puisse prélever les somme dues au titre des frais complémentaire sur le compte bancaire au moyen de la pré-autorisation bancaire (VAD) ou encaisser le chèque, effectuée ou remis au titre du dépôt de garantie à la signature du contrat.</strong></h6>
+										<p className="wow zoomInUp" data-wow-delay="0.5s">Afin d’éviter tout malentendu ou contestation lors du retour du véhicule, vous trouverez ci dessous le barème concernant les éventuels dégâts de carrosserie que nous pourrions être amenés à constater ensemble et à vous facturer à votre retour. Les pièces détachées à remplacer vous seront facturées au tarif TTC concessionnaire.</p>
 									</p>
 								</div>
 							</div>
 							<div className="col-sm-6 col-xs-12">
-								<img className="img-responsive center-block wow zoomInUp" data-wow-delay="0.5s" alt="best" src="media/about/img7.jpg" />
-								<h6 className="wow zoomInUp" data-wow-delay="0.5s"><strong>ATTENTION : le locataire sera redevable des réparations induites par erreur de carburant (par exemple, du diesel dans le réservoir au lieu du super). Le locataire accepte d’ores et déjà que le loueur puisse prélever les somme dues au titre des frais complémentaire sur le compte bancaire au moyen de la pré-autorisation bancaire (VAD) ou encaisser le chèque, effectuée ou remis au titre du dépôt de garantie à la signature du contrat.</strong>
-								<br />Afin d’éviter tout malentendu ou contestation lors du retour du véhicule, vous trouverez ci dessous le barème concernant les éventuels dégâts de carrosserie que nous pourrions être amenés à constater ensemble et à vous facturer à votre retour. Les pièces détachées à remplacer vous seront facturées au tarif TTC concessionnaire.</h6>
+								<img className="img-responsive center-block wow zoomInUp" data-wow-delay="0.5s" alt="best" src="media/about/image2.jpg" />
+								
 							</div>
 						</div>
 					</div>
-				</section>
+				</div>
 
-				
-				<h5 className="wow zoomInUp" data-wow-delay="0.5s">Afin d’éviter tout malentendu ou contestation lors du retour du véhicule, vous trouverez ci dessous le barème concernant les éventuels dégâts de carrosserie que nous pourrions être amenés à constater ensemble et à vous facturer à votre retour. Les pièces détachées à remplacer vous seront facturées au tarif TTC concessionnaire.</h5>
+				<div className="col-sm-12 col-xs-12">
+					<h5 data-wow-delay="0.5s">Afin d’éviter tout malentendu ou contestation lors du retour du véhicule, vous trouverez ci dessous le barème concernant les éventuels dégâts de carrosserie que nous pourrions être amenés à constater ensemble et à vous facturer à votre retour. Les pièces détachées à remplacer vous seront facturées au tarif TTC concessionnaire.</h5>
+				</div>
 				<section className="b-best">
 					<div className="b-compare__block wow zoomInUp" data-wow-delay="0.3s">
-						<div >
-							<table  className="b-compare__block-title s-whiteShadow" width="100%">
-							<tbody>
-							<tr>
-							<td></td>
-							<td>RAYURE LEGERE</td>
+						<center>
+							<div >
+								<table  className="b-compare__block-title s-whiteShadow" width="95%">
+								<tbody className="table_body">
+								<tr>
+								<td></td>
+								<td>RAYURE LEGERE</td>
 
-							<td>RAYURE PROFONDE</td>
-							<td>ENFONCEMENT</td>
-							</tr>
-							<tr>
-							<td>AILE</td>
-							<td>56€</td>
+								<td>RAYURE PROFONDE</td>
+								<td>ENFONCEMENT</td>
+								</tr>
+								<tr>
+								<td>AILE</td>
+								<td>56€</td>
 
-							<td>140€</td>
-							<td>200€</td>
-							</tr>
-							<tr>
-							<td>PORTE</td>
-							<td>84€</td>
-							<td>140€</td>
-							<td>200€</td>
-							</tr>
-							<tr>
-							<td>CAPOT</td>
-							<td>84€</td>
-							<td>140€</td>
-							<td>200€</td>
-							</tr>
-							<tr>
-							<td>TOIT</td>
-							<td>100€</td>
-							<td>160€</td>
-							<td>250€</td>
-							</tr>
-							<tr>
-							<td>PARE CHOC</td>
-							<td>56€</td>
-							<td>80€</td>
-							<td>160€</td>
-							</tr>
-							</tbody>
-							</table>
+								<td>140€</td>
+								<td>200€</td>
+								</tr>
+								<tr>
+								<td>PORTE</td>
+								<td>84€</td>
+								<td>140€</td>
+								<td>200€</td>
+								</tr>
+								<tr>
+								<td>CAPOT</td>
+								<td>84€</td>
+								<td>140€</td>
+								<td>200€</td>
+								</tr>
+								<tr>
+								<td>TOIT</td>
+								<td>100€</td>
+								<td>160€</td>
+								<td>250€</td>
+								</tr>
+								<tr>
+								<td>PARE CHOC</td>
+								<td>56€</td>
+								<td>80€</td>
+								<td>160€</td>
+								</tr>
+								</tbody>
+								</table>
 
-						</div>
+
+							</div>
+						</center>
+					</div>
+					<div className="col-sm-12 col-xs-12">
+						<center><h5 className="wow zoomInUp" data-wow-delay="0.5s" textAlign = 'center'>Le loueur se réserve le droit d'annuler une réservation passée sur le moteur de réservation Rentîles jusqu'à 48 heures après la réservation en cas de non disponibilité du véhicule</h5></center>
 					</div>
 				</section>
-			<h5 className="wow zoomInUp" data-wow-delay="0.5s" textAlign = 'center'>Le loueur se réserve le droit d'annuler une réservation passée sur le moteur de réservation Rentîles jusqu'à 48 heures après la réservation en cas de non disponibilité du véhicule</h5>
+			
+			<br />
 			<br />
 			<br />
 			</>
