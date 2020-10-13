@@ -17,7 +17,6 @@ class Slider extends React.Component {
 										<h3>GP Location</h3>
 										<h2>Location de Voiture à la Réunion</h2>
 										{/* <p>Depuis <span>10 ans</span></p> */}
-										<a className="btn m-btn" href="detail.html">details<span className="fa fa-angle-right"></span></a>
 									</div>
 								</div>
 							</div>
@@ -28,7 +27,7 @@ class Slider extends React.Component {
 										<h3>GP Location</h3>
 										<h2>Location de voiture à </h2>
 										<p>Sainte-Marie </p>
-										<a className="btn m-btn" href="detail.html">details<span className="fa fa-angle-right"></span></a>
+										<a className="btn m-btn" href="/Saint">Plus d'infos<span className="fa fa-angle-right"></span></a>
 									</div>
 								</div>
 							</div>
@@ -40,7 +39,7 @@ class Slider extends React.Component {
 										<h2>Location de voiture à </h2>
 										<p>l'Aéroport de la Réunion Roland-Garros</p>
 										{/* <p>Depuis  <span>10 ans</span></p> */}
-										<a className="btn m-btn" href="detail.html">details<span className="fa fa-angle-right"></span></a>
+										<a className="btn m-btn" href="/Aeroport">Plus d'infos<span className="fa fa-angle-right"></span></a>
 									</div>
 								</div>
 							</div>

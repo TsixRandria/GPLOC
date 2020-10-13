@@ -116,10 +116,10 @@ class Footer extends React.Component {
 										</div>
 										<nav className="b-footer__content-nav">
 											<ul>
-												<li><Link to="/">Acceuil</Link></li>
+												<li><Link to="/">Accueil</Link></li>
 												<li><Link to="/Aeroport">Aéroport de Roland-Garros</Link></li>
 												<li><Link to="/Saint">Sainte-Marie</Link></li>
-												<li><Link to="Condition">Nos Conditions</Link></li>
+												<li><Link to="/Condition">Nos Conditions</Link></li>
 												
 												
 												<li><Link to="/Contact">Contact</Link></li>
