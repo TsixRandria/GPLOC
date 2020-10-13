@@ -16,9 +16,11 @@
 
 /*Page Header */
 .b-pageHeader{
-    padding: 40px 0;
-    background: url(../images/backgrounds/pageHead.jpg) center;
+    padding: 50px 0;
+    background: url(../images/backgrounds/img01.jpg) center;
     background-size: cover;
+    height: 20px;
+    padding-top: 10px;
 }
 
 .b-pageHeader h1{
