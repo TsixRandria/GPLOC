@@ -1,4 +1,4 @@
-.cont{
+/* .cont{
   margin: 40px 0;
   width: 100%;
   height: auto;
@@ -21,4 +21,22 @@
 }
 .m-btn{
   margin-left: 30%;
+} */
+.form2{
+  background:#fff; 
+   width:500px;
+   margin:30px auto;
+   border-radius:0.4em;
+   border:1px solid #fff;
+   overflow:hidden;
+   position:relative;
+   box-shadow: 0 5px 10px 5px rgba(0,0,0,0.2);
+ 
+}
+.title{
+  color: blue;
+  text-align: center;
+}
+.text1{
+  padding: 10px 10px;
 }
