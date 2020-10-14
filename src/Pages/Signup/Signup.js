@@ -16,7 +16,7 @@ import './Signup.css';
                     <input type="text" placeholder="VOTRE EMAIL" defaultValue="" name="email" id="name" />
                     <input type="password" placeholder="VOTRE MOT DE PASSE" defaultValue="" name="password" id="name" />
                     <span className="champ"> Champs obligatoires</span><button type="submit" className="btn m-btn">INSCRIPTION<span className="fa fa-angle-right"></span></button>
-                    <p className="teny">
+                    <p className="teny text-justify">
                         <h2 className="sous">Protection des données</h2> 
                         Les informations recueillies font l'objet d'un traitemant informatique pour permettre à GP Location d'exécuter la réservation à distance. Si vous ne remplissez pas les champs obligatoires nous ne serons pas en mesure de vous fournir votre bon de réservation.
                         Conformément à la loi "informatique et libertés" du 6 janvier 1978, vous bénéficiez d'un droit d'accès et de rectification aux informations qui vous concernent. Si vous souhaitez exercer ce droit et obtenir communication des informations vous concernant, veuillez vous adresser au service client internet via notre <Link to="/Contact">formulaire de contact.</Link> 
