@@ -1,6 +1,10 @@
 import React from 'react';
+import ReCAPTCHA from "react-google-recaptcha"
 
 
+function onChange(value) {
+  console.log("Captcha value:", value)
+}
 
 class Contact extends React.Component {
 	render() {
@@ -34,7 +38,7 @@ class Contact extends React.Component {
 										<input type="text" placeholder="Téléphone" defaultValue="" name="user-phone" id="user-phone" />
 										<textarea id="user-message" name="user-message" placeholder="Message"></textarea>
 										<p className="p">* Champs obligatoires</p>
-										<div className="g-recaptcha" data-sitekey="6Lf_Z9AZAAAAABZooEnLXqd6LygH7qA0-_psasJQ"></div>
+										<fieldset><ReCAPTCHA sitekey="6LdXP9cZAAAAAOjXVT_t6gXbM8gNuQXyvK9qPhr2" onChange={onChange} /></fieldset>
 										<button type="submit" className="btn m-btn">VALIDER    <span className="fa fa-angle-right"></span></button>
 										
 									</form>
