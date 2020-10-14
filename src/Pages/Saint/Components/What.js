@@ -10,7 +10,7 @@ class What extends Component {
                         <div className="container">
                             <div className="row">
                                 <div className="col-sm-12 col-xs-12">
-                                    <div className="b-more__why wow zoomInLeft" data-wow-delay="0.5s" style={{visibility: "visible", animationDelay: "0.5s", animationName: "ZoomInLeft"}}>
+                                    <div className="b-more__why wow zoomInLeft text-justify" data-wow-delay="0.5s" style={{visibility: "visible", animationDelay: "0.5s", animationName: "ZoomInLeft"}}>
                                         <center><h2 className="s-title">Découvrez les alentours grâce à votre voiture de location</h2></center>
                                         <p>Saint-Denis est la commune où se situe l'aéroport Roland-Garros. Vous pouvez faire un tour au centre-ville où de nombreux monuments sont à voir, comme la chapelle Notre-Dame de la Salette ou l'église Notre-Dame de l'Assomption.
                                          Plus loin, se situe le petit port de pêche et de plaisance où environ 180 bateaux sont amarrés. De nombreuses buvettes parsèment cet agréable lieu de promenade et vous permettront de vous désaltérer et de grignoter quelques spécialités locales.
@@ -19,31 +19,31 @@ class What extends Component {
                                         <div className="b-compare__block wow zoomInUp" data-wow-delay="0.3s">
                                             <div className="b-compare__block-title s-whiteShadow">
                                                 <h3 className="s-titleDet">Prise en charge à l'aéroport ou au port avec votre véhicule</h3>
-                                                <a className="j-more" href="#"><span className="fa fa-angle-left"></span></a>
+                                                <a className="j-more" href="/"><span className="fa fa-angle-left"></span></a>
                                             </div>
                                         </div>
                                         <div className="b-compare__block wow zoomInUp" data-wow-delay="0.3s">
                                             <div className="b-compare__block-title s-whiteShadow">
                                                 <h3 className="s-titleDet">Kilométrage illimité, assurances incluses</h3>
-                                                <a className="j-more" href="#"><span className="fa fa-angle-left"></span></a>
+                                                <a className="j-more" href="/"><span className="fa fa-angle-left"></span></a>
                                             </div>
                                         </div>
                                         <div className="b-compare__block wow zoomInUp" data-wow-delay="0.3s">
                                             <div className="b-compare__block-title s-whiteShadow">
                                                 <h3 className="s-titleDet">Assistance 7j/7, 24h/24</h3>
-                                                <a className="j-more" href="#"><span className="fa fa-angle-left"></span></a>
+                                                <a className="j-more" href="/"><span className="fa fa-angle-left"></span></a>
                                             </div>
                                         </div>
                                         <div className="b-compare__block wow zoomInUp" data-wow-delay="0.3s">
                                             <div className="b-compare__block-title s-whiteShadow">
                                                 <h3 className="s-titleDet">Large choix de véhicules récents </h3>
-                                                <a className="j-more" href="#"><span className="fa fa-angle-left"></span></a>
+                                                <a className="j-more" href="/"><span className="fa fa-angle-left"></span></a>
                                             </div>
                                         </div>
                                         <div className="b-compare__block wow zoomInUp" data-wow-delay="0.3s">
                                             <div className="b-compare__block-title s-whiteShadow">
                                                 <h3 className="s-titleDet">Ouvert 7j/7 y compris jours fériés</h3>
-                                                <a className="j-more" href="#"><span className="fa fa-angle-left"></span></a>
+                                                <a className="j-more" href="/"><span className="fa fa-angle-left"></span></a>
                                             </div>
                                         </div>    
 
@@ -66,10 +66,10 @@ class What extends Component {
                                         <img src="media/persons/jason.jpg" className="img-responsive" alt="jason"/>
                                         <div className="b-personal__worker-img-social">
                                             <div className="b-personal__worker-img-social-main">
-                                                <a href="#"><span className="fa fa-facebook-square"></span></a>
-                                                <a href="#"><span className="fa fa-twitter-square"></span></a>
-                                                <a href="#"><span className="fa fa-pinterest-square"></span></a>
-                                                <a href="#"><span className="fa fa-google-plus-square"></span></a>
+                                                <a href="/"><span className="fa fa-facebook-square"></span></a>
+                                                <a href="/"><span className="fa fa-twitter-square"></span></a>
+                                                <a href="/"><span className="fa fa-pinterest-square"></span></a>
+                                                <a href="/"><span className="fa fa-google-plus-square"></span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -86,10 +86,10 @@ class What extends Component {
                                         <img src="media/persons/paul.jpg" className="img-responsive" alt="paul"/>
                                         <div className="b-personal__worker-img-social">
                                             <div className="b-personal__worker-img-social-main">
-                                                <a href="#"><span className="fa fa-facebook-square"></span></a>
-                                                <a href="#"><span className="fa fa-twitter-square"></span></a>
-                                                <a href="#"><span className="fa fa-pinterest-square"></span></a>
-                                                <a href="#"><span className="fa fa-google-plus-square"></span></a>
+                                                <a href="/"><span className="fa fa-facebook-square"></span></a>
+                                                <a href="/"><span className="fa fa-twitter-square"></span></a>
+                                                <a href="/"><span className="fa fa-pinterest-square"></span></a>
+                                                <a href="/"><span className="fa fa-google-plus-square"></span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -106,10 +106,10 @@ class What extends Component {
                                         <img src="media/persons/peter.jpg" className="img-responsive" alt="peter"/>
                                         <div className="b-personal__worker-img-social">
                                             <div className="b-personal__worker-img-social-main">
-                                                <a href="#"><span className="fa fa-facebook-square"></span></a>
-                                                <a href="#"><span className="fa fa-twitter-square"></span></a>
-                                                <a href="#"><span className="fa fa-pinterest-square"></span></a>
-                                                <a href="#"><span className="fa fa-google-plus-square"></span></a>
+                                                <a href="/"><span className="fa fa-facebook-square"></span></a>
+                                                <a href="/"><span className="fa fa-twitter-square"></span></a>
+                                                <a href="/"><span className="fa fa-pinterest-square"></span></a>
+                                                <a href="/"><span className="fa fa-google-plus-square"></span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -126,10 +126,10 @@ class What extends Component {
                                         <img src="media/persons/maria.jpg" className="img-responsive" alt="maria"/>
                                         <div className="b-personal__worker-img-social">
                                             <div className="b-personal__worker-img-social-main">
-                                                <a href="#"><span className="fa fa-facebook-square"></span></a>
-                                                <a href="#"><span className="fa fa-twitter-square"></span></a>
-                                                <a href="#"><span className="fa fa-pinterest-square"></span></a>
-                                                <a href="#"><span className="fa fa-google-plus-square"></span></a>
+                                                <a href="/"><span className="fa fa-facebook-square"></span></a>
+                                                <a href="/"><span className="fa fa-twitter-square"></span></a>
+                                                <a href="/"><span className="fa fa-pinterest-square"></span></a>
+                                                <a href="/"><span className="fa fa-google-plus-square"></span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -146,10 +146,10 @@ class What extends Component {
                                         <img src="media/persons/jason.jpg" className="img-responsive" alt="jason"/>
                                         <div className="b-personal__worker-img-social">
                                             <div className="b-personal__worker-img-social-main">
-                                                <a href="#"><span className="fa fa-facebook-square"></span></a>
-                                                <a href="#"><span className="fa fa-twitter-square"></span></a>
-                                                <a href="#"><span className="fa fa-pinterest-square"></span></a>
-                                                <a href="#"><span className="fa fa-google-plus-square"></span></a>
+                                                <a href="/"><span className="fa fa-facebook-square"></span></a>
+                                                <a href="/"><span className="fa fa-twitter-square"></span></a>
+                                                <a href="/"><span className="fa fa-pinterest-square"></span></a>
+                                                <a href="/"><span className="fa fa-google-plus-square"></span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -166,10 +166,10 @@ class What extends Component {
                                         <img src="media/persons/paul.jpg" className="img-responsive" alt="paul"/>
                                         <div className="b-personal__worker-img-social">
                                             <div className="b-personal__worker-img-social-main">
-                                                <a href="#"><span className="fa fa-facebook-square"></span></a>
-                                                <a href="#"><span className="fa fa-twitter-square"></span></a>
-                                                <a href="#"><span className="fa fa-pinterest-square"></span></a>
-                                                <a href="#"><span className="fa fa-google-plus-square"></span></a>
+                                                <a href="/"><span className="fa fa-facebook-square"></span></a>
+                                                <a href="/"><span className="fa fa-twitter-square"></span></a>
+                                                <a href="/"><span className="fa fa-pinterest-square"></span></a>
+                                                <a href="/"><span className="fa fa-google-plus-square"></span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -186,10 +186,10 @@ class What extends Component {
                                         <img src="media/persons/peter.jpg" className="img-responsive" alt="peter"/>
                                         <div className="b-personal__worker-img-social">
                                             <div className="b-personal__worker-img-social-main">
-                                                <a href="#"><span className="fa fa-facebook-square"></span></a>
-                                                <a href="#"><span className="fa fa-twitter-square"></span></a>
-                                                <a href="#"><span className="fa fa-pinterest-square"></span></a>
-                                                <a href="#"><span className="fa fa-google-plus-square"></span></a>
+                                                <a href="/"><span className="fa fa-facebook-square"></span></a>
+                                                <a href="/"><span className="fa fa-twitter-square"></span></a>
+                                                <a href="/"><span className="fa fa-pinterest-square"></span></a>
+                                                <a href="/"><span className="fa fa-google-plus-square"></span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -206,10 +206,10 @@ class What extends Component {
                                         <img src="media/persons/maria.jpg" className="img-responsive" alt="maria"/>
                                         <div className="b-personal__worker-img-social">
                                             <div className="b-personal__worker-img-social-main">
-                                                <a href="#"><span className="fa fa-facebook-square"></span></a>
-                                                <a href="#"><span className="fa fa-twitter-square"></span></a>
-                                                <a href="#"><span className="fa fa-pinterest-square"></span></a>
-                                                <a href="#"><span className="fa fa-google-plus-square"></span></a>
+                                                <a href="/"><span className="fa fa-facebook-square"></span></a>
+                                                <a href="/"><span className="fa fa-twitter-square"></span></a>
+                                                <a href="/"><span className="fa fa-pinterest-square"></span></a>
+                                                <a href="/"><span className="fa fa-google-plus-square"></span></a>
                                             </div>
                                         </div>
                                     </div>

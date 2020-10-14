@@ -8,7 +8,7 @@ import React, { Component } from 'react'
 				<div className="container">
 					<div className="row">
 						<div className="col-sm-12 col-xs-12">
-							<div className="b-more__why wow zoomInLeft" data-wow-delay="0.5s" style={{visibility: "visible", animationDelay: "0.5s", animationName: "ZoomInLeft"}}>
+							<div className="b-more__why wow zoomInLeft text-justify" data-wow-delay="0.5s" style={{visibility: "visible", animationDelay: "0.5s", animationName: "ZoomInLeft"}}>
 								<center><h2 className="s-title">Que visiter à la Réunion depuis l'aéroport Roland Garros ?</h2></center>
 								<p>À bord de votre voiture de location, partez explorer l’île de la Réunion directement depuis l'aéroport Roland Garros. Le code de la route étant le même qu'en métropole, vous ne devriez pas avoir de problème lié à la conduite.
 	                             Non loin de là se trouve la ville de Saint-Denis, labellisée « Ville d'Art et d'Histoire ». Plus de 50 monuments historiques, dont des maisons créoles et des bâtiments coloniaux, se succèdent à partir du rond-point de la Victoire et tout le long de la rue de Paris. Ne manquez pas la visite du jardin de l'État, qui abrite le Museum d'histoire naturelle, où vous découvrirez de nombreuses plantes exotiques.
@@ -16,31 +16,31 @@ import React, { Component } from 'react'
 								<div className="b-compare__block wow zoomInUp" data-wow-delay="0.3s">
                                     <div className="b-compare__block-title s-whiteShadow">
                                         <h3 className="s-titleDet">Prise en charge à l'aéroport ou au port avec votre véhicule</h3>
-                                        <a className="j-more" href="#"><span className="fa fa-angle-left"></span></a>
+                                        <a className="j-more" href="/"><span className="fa fa-angle-left"></span></a>
                                     </div>
                                 </div>
                                 <div className="b-compare__block wow zoomInUp" data-wow-delay="0.3s">
                                     <div className="b-compare__block-title s-whiteShadow">
                                         <h3 className="s-titleDet">Kilométrage illimité, assurances incluses</h3>
-                                        <a className="j-more" href="#"><span className="fa fa-angle-left"></span></a>
+                                        <a className="j-more" href="/"><span className="fa fa-angle-left"></span></a>
                                     </div>
                                 </div>
                                 <div className="b-compare__block wow zoomInUp" data-wow-delay="0.3s">
                                     <div className="b-compare__block-title s-whiteShadow">
                                         <h3 className="s-titleDet">Assistance 7j/7, 24h/24</h3>
-                                        <a className="j-more" href="#"><span className="fa fa-angle-left"></span></a>
+                                        <a className="j-more" href="/"><span className="fa fa-angle-left"></span></a>
                                     </div>
                                 </div>
                                 <div className="b-compare__block wow zoomInUp" data-wow-delay="0.3s">
                                     <div className="b-compare__block-title s-whiteShadow">
                                         <h3 className="s-titleDet">Large choix de véhicules récents </h3>
-                                        <a className="j-more" href="#"><span className="fa fa-angle-left"></span></a>
+                                        <a className="j-more" href="/"><span className="fa fa-angle-left"></span></a>
                                     </div>
                                 </div>
                                 <div className="b-compare__block wow zoomInUp" data-wow-delay="0.3s">
                                     <div className="b-compare__block-title s-whiteShadow">
                                         <h3 className="s-titleDet">Ouvert 7j/7 y compris jours fériés</h3>
-                                        <a className="j-more" href="#"><span className="fa fa-angle-left"></span></a>
+                                        <a className="j-more" href="/"><span className="fa fa-angle-left"></span></a>
                                     </div>
                                 </div>    
 							</div>
@@ -62,10 +62,10 @@ import React, { Component } from 'react'
 								<img src="media/persons/jason.jpg" className="img-responsive" alt="jason"/>
 								<div className="b-personal__worker-img-social">
 									<div className="b-personal__worker-img-social-main">
-										<a href="#"><span className="fa fa-facebook-square"></span></a>
-										<a href="#"><span className="fa fa-twitter-square"></span></a>
-										<a href="#"><span className="fa fa-pinterest-square"></span></a>
-										<a href="#"><span className="fa fa-google-plus-square"></span></a>
+										<a href="/"><span className="fa fa-facebook-square"></span></a>
+										<a href="/"><span className="fa fa-twitter-square"></span></a>
+										<a href="/"><span className="fa fa-pinterest-square"></span></a>
+										<a href="/"><span className="fa fa-google-plus-square"></span></a>
 									</div>
 								</div>
 							</div>
@@ -82,10 +82,10 @@ import React, { Component } from 'react'
 								<img src="media/persons/paul.jpg" className="img-responsive" alt="paul"/>
 								<div className="b-personal__worker-img-social">
 									<div className="b-personal__worker-img-social-main">
-										<a href="#"><span className="fa fa-facebook-square"></span></a>
-										<a href="#"><span className="fa fa-twitter-square"></span></a>
-										<a href="#"><span className="fa fa-pinterest-square"></span></a>
-										<a href="#"><span className="fa fa-google-plus-square"></span></a>
+										<a href="/"><span className="fa fa-facebook-square"></span></a>
+										<a href="/"><span className="fa fa-twitter-square"></span></a>
+										<a href="/"><span className="fa fa-pinterest-square"></span></a>
+										<a href="/"><span className="fa fa-google-plus-square"></span></a>
 									</div>
 								</div>
 							</div>
@@ -102,10 +102,10 @@ import React, { Component } from 'react'
 								<img src="media/persons/peter.jpg" className="img-responsive" alt="peter"/>
 								<div className="b-personal__worker-img-social">
 									<div className="b-personal__worker-img-social-main">
-										<a href="#"><span className="fa fa-facebook-square"></span></a>
-										<a href="#"><span className="fa fa-twitter-square"></span></a>
-										<a href="#"><span className="fa fa-pinterest-square"></span></a>
-										<a href="#"><span className="fa fa-google-plus-square"></span></a>
+										<a href="/"><span className="fa fa-facebook-square"></span></a>
+										<a href="/"><span className="fa fa-twitter-square"></span></a>
+										<a href="/"><span className="fa fa-pinterest-square"></span></a>
+										<a href="/"><span className="fa fa-google-plus-square"></span></a>
 									</div>
 								</div>
 							</div>
@@ -122,10 +122,10 @@ import React, { Component } from 'react'
 								<img src="media/persons/maria.jpg" className="img-responsive" alt="maria"/>
 								<div className="b-personal__worker-img-social">
 									<div className="b-personal__worker-img-social-main">
-										<a href="#"><span className="fa fa-facebook-square"></span></a>
-										<a href="#"><span className="fa fa-twitter-square"></span></a>
-										<a href="#"><span className="fa fa-pinterest-square"></span></a>
-										<a href="#"><span className="fa fa-google-plus-square"></span></a>
+										<a href="/"><span className="fa fa-facebook-square"></span></a>
+										<a href="/"><span className="fa fa-twitter-square"></span></a>
+										<a href="/"><span className="fa fa-pinterest-square"></span></a>
+										<a href="/"><span className="fa fa-google-plus-square"></span></a>
 									</div>
 								</div>
 							</div>
@@ -142,10 +142,10 @@ import React, { Component } from 'react'
 								<img src="media/persons/jason.jpg" className="img-responsive" alt="jason"/>
 								<div className="b-personal__worker-img-social">
 									<div className="b-personal__worker-img-social-main">
-										<a href="#"><span className="fa fa-facebook-square"></span></a>
-										<a href="#"><span className="fa fa-twitter-square"></span></a>
-										<a href="#"><span className="fa fa-pinterest-square"></span></a>
-										<a href="#"><span className="fa fa-google-plus-square"></span></a>
+										<a href="/"><span className="fa fa-facebook-square"></span></a>
+										<a href="/"><span className="fa fa-twitter-square"></span></a>
+										<a href="/"><span className="fa fa-pinterest-square"></span></a>
+										<a href="/"><span className="fa fa-google-plus-square"></span></a>
 									</div>
 								</div>
 							</div>
@@ -162,10 +162,10 @@ import React, { Component } from 'react'
 								<img src="media/persons/paul.jpg" className="img-responsive" alt="paul"/>
 								<div className="b-personal__worker-img-social">
 									<div className="b-personal__worker-img-social-main">
-										<a href="#"><span className="fa fa-facebook-square"></span></a>
-										<a href="#"><span className="fa fa-twitter-square"></span></a>
-										<a href="#"><span className="fa fa-pinterest-square"></span></a>
-										<a href="#"><span className="fa fa-google-plus-square"></span></a>
+										<a href="/"><span className="fa fa-facebook-square"></span></a>
+										<a href="/"><span className="fa fa-twitter-square"></span></a>
+										<a href="/"><span className="fa fa-pinterest-square"></span></a>
+										<a href="/"><span className="fa fa-google-plus-square"></span></a>
 									</div>
 								</div>
 							</div>
@@ -182,10 +182,10 @@ import React, { Component } from 'react'
 								<img src="media/persons/peter.jpg" className="img-responsive" alt="peter"/>
 								<div className="b-personal__worker-img-social">
 									<div className="b-personal__worker-img-social-main">
-										<a href="#"><span className="fa fa-facebook-square"></span></a>
-										<a href="#"><span className="fa fa-twitter-square"></span></a>
-										<a href="#"><span className="fa fa-pinterest-square"></span></a>
-										<a href="#"><span className="fa fa-google-plus-square"></span></a>
+										<a href="/"><span className="fa fa-facebook-square"></span></a>
+										<a href="/"><span className="fa fa-twitter-square"></span></a>
+										<a href="/"><span className="fa fa-pinterest-square"></span></a>
+										<a href="/"><span className="fa fa-google-plus-square"></span></a>
 									</div>
 								</div>
 							</div>
@@ -202,10 +202,10 @@ import React, { Component } from 'react'
 								<img src="media/persons/maria.jpg" className="img-responsive" alt="maria"/>
 								<div className="b-personal__worker-img-social">
 									<div className="b-personal__worker-img-social-main">
-										<a href="#"><span className="fa fa-facebook-square"></span></a>
-										<a href="#"><span className="fa fa-twitter-square"></span></a>
-										<a href="#"><span className="fa fa-pinterest-square"></span></a>
-										<a href="#"><span className="fa fa-google-plus-square"></span></a>
+										<a href="/"><span className="fa fa-facebook-square"></span></a>
+										<a href="/"><span className="fa fa-twitter-square"></span></a>
+										<a href="/"><span className="fa fa-pinterest-square"></span></a>
+										<a href="/"><span className="fa fa-google-plus-square"></span></a>
 									</div>
 								</div>
 							</div>

@@ -10,7 +10,7 @@ import React, { Component } from 'react'
                     
                 </div>
             </fieldset>
-			<section className="b-best">
+			<section className="b-best text-justify">
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-12 col-xs-12">

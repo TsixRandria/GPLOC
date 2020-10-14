@@ -14,7 +14,7 @@ import React, { Component } from 'react';
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-12 col-xs-12">
-                            <div className="b-best__info">
+                            <div className="b-best__info text-justify">
                                 <header className="s-lineDownLeft b-best__info-head">
                                     <h2 className="wow zoomInUp" data-wow-delay="0.5s" style={{visibility: "visible", animationDelay: "0.5s", animationName: "zoomInUp"}}>Votre voiture de location à Sainte-Marie !</h2>
                                 </header>
@@ -24,7 +24,7 @@ import React, { Component } from 'react';
                                 Que vous veniez en famille, seul ou en groupe, nous sommes à votre disposition pour vous guider dans le choix d'une voiture adaptée à vos besoins. Notre assistance joignable en permanence, ainsi que nos assurances incluses, vous permettront de profiter idéalement de votre séjour sur l’île de la Réunion. Avec votre voiture de location, vous bénéficierez d'une totale liberté de déplacement et pourrez ainsi découvrir toutes les richesses de l’île.</p>
                                 
                                 
-                                <a href="/" className="btn m-btn m-readMore wow zoomInUp" data-wow-delay="0.5s" style={{visibility: "visible", animationDelay: "0.5s", animationName: "zoomInUp"}} >list des voitures<span className="fa fa-angle-right"></span></a>
+                                <a href="/" className="btn m-btn m-readMore wow zoomInUp" data-wow-delay="0.5s" style={{visibility: "visible", animationDelay: "0.5s", animationName: "zoomInUp"}} >liste des voitures<span className="fa fa-angle-right"></span></a>
                             </div>
                         </div>
                         
