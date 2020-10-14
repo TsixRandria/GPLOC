@@ -93,13 +93,12 @@ class Footer extends React.Component {
 
 
 					<footer className="b-footer">
-						<a id="to-top" href="#this-is-top"><i className="fa fa-chevron-up"></i></a>
 						<div className="container">
 							<div className="row">
 								<div className="col-xs-4">
 									<div className="b-footer__company wow slideInLeft" data-wow-delay="0.3s">
 										<div className="b-nav__logo">
-											<h3><a href="home.html">GP<span>Location</span></a></h3>
+											<h3><a href="/">GP<span>Location</span></a></h3>
 										</div>
 										<p>Location de voiture à la Reunion</p>
 									</div>
@@ -116,13 +115,13 @@ class Footer extends React.Component {
 										</div>
 										<nav className="b-footer__content-nav">
 											<ul>
-												<li><Link to="/">Accueil</Link></li>
-												<li><Link to="/Aeroport">Aéroport de Roland-Garros</Link></li>
-												<li><Link to="/Saint">Sainte-Marie</Link></li>
-												<li><Link to="/Condition">Nos Conditions</Link></li>
+												<li><a href="/">Accueil</a></li>
+												<li><a href="/Aeroport">Aéroport de Roland-Garros</a></li>
+												<li><a href="/Sainte-Marie">Sainte-Marie</a></li>
+												<li><a href="/Condition">Nos Conditions</a></li>
 												
 												
-												<li><Link to="/Contact">Contact</Link></li>
+												<li><a href="/Contact">Contact</a></li>
 											</ul>
 										</nav>
 									</div>

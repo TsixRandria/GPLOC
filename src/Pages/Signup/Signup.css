@@ -18,7 +18,7 @@
   border:1px solid #fff;
   overflow:hidden;
   position:relative;
-  box-shadow: 0 5px 10px 5px rgba(0,0,0,0.2);
+  box-shadow: 0 5px 10px 5px rgba(0,0,0,0.1);
 }
 .success1 .title{
   text-align: center;
