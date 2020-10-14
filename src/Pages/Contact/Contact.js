@@ -28,7 +28,7 @@ class Contact extends React.Component {
 									<div id="success"></div>
 									<form id="contactForm" noValidate className="b-contacts__address-hours-main s-form wow zoomInUp" data-wow-delay="0.5s">
 										
-										<input type="text" placeholder="Nom*" defaultValue="" name="user-name" id="user-name" />
+										<input type="text" placeholder="Nom" defaultValue="" name="user-name" id="user-name" />
 										<input type="text" placeholder="Prénom" defaultValue="" name="user-name" id="user-lastname" />
 										<input type="text" placeholder="Email" defaultValue="" name="user-email" id="user-email" />
 										<input type="text" placeholder="Téléphone" defaultValue="" name="user-phone" id="user-phone" />
