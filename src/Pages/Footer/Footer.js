@@ -101,7 +101,7 @@ class Footer extends React.Component {
 										<div className="b-nav__logo">
 											<h3><a href="home.html">GP<span>Location</span></a></h3>
 										</div>
-										<p>Location de voiture à la Reunion .</p>
+										<p>Location de voiture à la Reunion</p>
 									</div>
 								</div>
 								<div className="col-xs-8">

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import './Style.css'
+import './Login.css'
 
 class Login extends Component {
     render() {
@@ -13,8 +13,8 @@ class Login extends Component {
                             <div id="success" class="success1">
                                 <h1 className="title">Se connecter</h1>  
                                     <form id="contactForm" noValidate className="s-form wow zoomInUp" data-wow-delay="0.5s">
-                                    <input type="text" placeholder="VOTRE EMAIL" defaultValue="" name="email" id="user-name" />
-                                    <input type="password" placeholder="VOTRE MOT DE PASSE" defaultValue="" name="user-name" id="user-name" />
+                                    <input type="text" placeholder="VOTRE EMAIL" defaultValue="" name="email" id="name" />
+                                    <input type="password" placeholder="VOTRE MOT DE PASSE" defaultValue="" name="user-name" id="name" />
                                     <button type="submit" className="btn m-btn">CONNEXION<span className="fa fa-angle-right"></span></button><br></br>
                                     <a className="oubli">Mot de passe oublié ?</a>
                                     <br></br>

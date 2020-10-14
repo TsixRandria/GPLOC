@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import './Style.css';
+import './Signup.css';
 
  class Signup extends Component {
     render() {
@@ -10,11 +10,11 @@ import './Style.css';
                 <div class="success1" >
                 <h1 className="title">Inscription</h1>  
                     <form id="contactForm" noValidate className="s-form wow zoomInUp" data-wow-delay="0.5s">
-                    <input type="text" placeholder="VOTRE NOM" defaultValue="" name="user-name" id="user-name" />
-                    <input type="text" placeholder="VOTRE PRENOM" defaultValue="" name="user-name" id="user-name" />
-                    <input type="text" placeholder="TELEPHONE" defaultValue="" name="user-name" id="user-name" />
-                    <input type="text" placeholder="VOTRE EMAIL" defaultValue="" name="email" id="user-name" />
-                    <input type="password" placeholder="VOTRE MOT DE PASSE" defaultValue="" name="password" id="user-name" />
+                    <input type="text" placeholder="VOTRE NOM" defaultValue="" name="user-name" id="name" />
+                    <input type="text" placeholder="VOTRE PRENOM" defaultValue="" name="user-name" id="name" />
+                    <input type="text" placeholder="TELEPHONE" defaultValue="" name="user-phone" id="name" />
+                    <input type="text" placeholder="VOTRE EMAIL" defaultValue="" name="email" id="name" />
+                    <input type="password" placeholder="VOTRE MOT DE PASSE" defaultValue="" name="password" id="name" />
                     <span className="champ"> Champs obligatoires</span><button type="submit" className="btn m-btn">INSCRIPTION<span className="fa fa-angle-right"></span></button>
                     <p className="teny">
                         <h2 className="sous">Protection des données</h2> 

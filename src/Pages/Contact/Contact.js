@@ -29,12 +29,12 @@ class Contact extends React.Component {
 									<form id="contactForm" noValidate className="b-contacts__address-hours-main s-form wow zoomInUp" data-wow-delay="0.5s">
 										
 										<input type="text" placeholder="Nom*" defaultValue="" name="user-name" id="user-name" />
-										<input type="text" placeholder="Prénom*" defaultValue="" name="user-name" id="user-lastname" />
-										<input type="text" placeholder="Email*" defaultValue="" name="user-email" id="user-email" />
-										<input type="text" placeholder="Téléphone*" defaultValue="" name="user-phone" id="user-phone" />
-										<textarea id="user-message" name="user-message" placeholder="Message*"></textarea>
+										<input type="text" placeholder="Prénom" defaultValue="" name="user-name" id="user-lastname" />
+										<input type="text" placeholder="Email" defaultValue="" name="user-email" id="user-email" />
+										<input type="text" placeholder="Téléphone" defaultValue="" name="user-phone" id="user-phone" />
+										<textarea id="user-message" name="user-message" placeholder="Message"></textarea>
 										<p className="p">* Champs obligatoires</p>
-										<div id="captcha" class="g-recaptcha" data-sitekey="6Lf_Z9AZAAAAABZooEnLXqd6LygH7qA0-_psasJQ"></div>
+										<div className="g-recaptcha" data-sitekey="6Lf_Z9AZAAAAABZooEnLXqd6LygH7qA0-_psasJQ"></div>
 										<button type="submit" className="btn m-btn">VALIDER    <span className="fa fa-angle-right"></span></button>
 										
 									</form>
