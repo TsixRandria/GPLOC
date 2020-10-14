@@ -1,38 +1,38 @@
 import React from 'react';
-import './Style.css';
+import './Search.css';
 
 
 class Search extends React.Component {
 	render() {
 		return (
 			<>
-				<section className="b-search">
+				
 					<div className="container">
-						<h1 className="wow zoomInUp" data-wow-delay="0.3s">Besoin d'une voiture de location à la Réunion ?</h1>
 						<div className="b-search__main wow zoomInUp" data-wow-delay="0.3s">
-							<h4>Pour louer une voiture à la Réunion, rien de plus simple !<br/> Réservez votre voiture en ligne et pas chère avec GP Location.</h4>
+							<h4 className="titre2"><span className="titreS">Besoin d'une voiture de location à la Réunion</span><br></br><br></br>Pour louer une voiture à la Réunion, rien de plus simple !<br/> Réservez votre voiture en ligne et pas chère avec GP Location.</h4>
 							<form action="listingsTwo.html" method="POST" className="b-search__main-form">
 								<div className="row">
 									<div className="col-xs-12 col-md-8">
 										<div className="m-firstSelects">
-											<div className="col-xs-4">
+											<div className="col-xs-5">
+											<p>Lieu de départ</p>
 												<select name="select1">
-													<option value="0" >Aéroport</option>
+												<span className="fa fa-caret-down"></span>
+													<option value="0" >Aéroport de la Réunion</option>
 													<option value="1" selected="selected">Sainte-Marie</option>
 													
 												</select>
-												<span className="fa fa-caret-down"></span>
-												<p>Lieu de départ</p>
+												
+												
 											</div>
-											<div className="col-xs-4">
-												<select name="select2">
-												<option value="1" selected="selected">11/02/2020</option>			
-													
-												</select>
-												<span className="fa fa-caret-down"></span>
+											<div className="col-xs-3">
 												<p>Date de départ</p>
+												<select name="select2">
+												<option value="1" selected="selected">11/02/2020</option>				
+												</select>
 											</div>
-											<div className="col-xs-4">
+											<div className="col-xs-3">
+											<p>heure de départ</p>
 												<select name="select3">
 													<option value="05:30" >05:30</option>
 													<option value="06:00" >06:00</option>
@@ -70,22 +70,19 @@ class Search extends React.Component {
 													<option value="22:00" >22:00</option>
 													<option value="22:30" >22:30</option>
 													<option value="23:00" >23:00</option>
-												</select>
-												<span className="fa fa-caret-down"></span>
-												<p>heure de départ</p>
+												</select>	
 											</div>
 										</div>
 										<div className="m-secondSelects">
-											<div className="col-xs-4">
+											<div className="col-xs-5">
+											<p>Lieu de retour</p>
 												<select name="select1">
 													<option value="0" >Aéroport de la Réunion</option>
 													<option value="1" selected="selected">Sainte-Marie</option>
-													
 												</select>
-												<span className="fa fa-caret-down"></span>
-												<p>Lieu de retour</p>
 											</div>
-											<div className="col-xs-4">
+											<div className="col-xs-3">
+											<p>date de retour</p>
 												<select name="select4">
 													<option value="0" selected="selected">14/12/2020</option>
 													<option value="1">15/12/2020</option>
@@ -94,12 +91,14 @@ class Search extends React.Component {
 													<option value="4">18/12/2020</option>
 													<option value="5">19/12/2020</option>
 												</select>
-												<span className="fa fa-caret-down"></span>
-												<p>date de retour</p>
+												{/* <span className="fa fa-caret-down"></span> */}
+												
 											</div>
-											<div className="col-xs-4">
+											<div className="col-xs-3">
+
+												<p>heure de retour</p>
 												<select name="select5">
-													<option value="05:30" >05:30</option>
+												<option value="05:00" selected="selected">05:00</option>
 													<option value="06:00" >06:00</option>
 													<option value="06:30" >06:30</option>
 													<option value="07:00" >07:00</option>
@@ -108,7 +107,7 @@ class Search extends React.Component {
 													<option value="08:30" >08:30</option>
 													<option value="09:00" >09:00</option>
 													<option value="09:30" >09:30</option>
-													<option value="10:00" selected="selected">10:00</option>
+													<option value="10:00" >10:00</option>
 													<option value="10:30" >10:30</option>
 													<option value="11:00" >11:00</option>
 													<option value="11:30" >11:30</option>
@@ -136,8 +135,7 @@ class Search extends React.Component {
 													<option value="22:30" >22:30</option>
 													<option value="23:00" >23:00</option>
 												</select>
-												<span className="fa fa-caret-down"></span>
-												<p>heure de retour</p>
+												
 											</div>
 										</div>
 									</div>
@@ -154,7 +152,9 @@ class Search extends React.Component {
 							</form>
 						</div>
 					</div>
-				</section>
+						
+
+				
 
 			</>
 		)

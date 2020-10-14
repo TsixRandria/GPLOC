@@ -107,90 +107,10 @@ body{
     color: #6a6a6a;
 }
 
-.b-search__main-form-submit{
-    
-}
+.
 /*b-slider*/
 
-/*b-search*/
-.b-search{
-    background: #f5f5f5;
-}
 
-.b-search__main{
-    background-image: url(../images/backgrounds/fondresa_lang2.png);
-    background-position: right;
-    background-repeat: no-repeat;
-}
-
-.b-search__main-title{
-    background: #0011a7;
-}
-
-.b-search__main-title h2{
-    color:#fff;
-}
-
-.b-search__main-type h4{
-    color:#545454;
-}
-
-.b-search svg  g{
-    fill:#d6d6d6;
-}
-
-.m-active svg g{
-    fill:#0011a7;
-}
-
-.m-active h5{
-    color:#555;
-}
-
-.b-search__main-form p{
-    color:#999999;
-}
-
-.b-search__main-form-submit a{
-    color:#0011a7;
-}
-
-.b-search__main-form-submit button.btn.m-btn{
-    color:#fff;
-    background: #555555;
-}
-
-.b-search__main-form-submit button.btn.m-btn:hover{
-    background: #0011a7;
-    color: #fff;
-}
-
-.b-search__main-form-submit button.btn.m-btn:hover span{
-    background: #fff;
-    color: #6a6a6a;
-}
-
-.b-search__main-form-submit button.btn.m-btn span.fa{
-    background: #0011a7;
-    color:#fff;
-}
-
-.ui-widget-header{
-    background: #eeeeee;
-}
-
-.ui-slider-handle:after{
-    background:#0011a7;
-}
-
-.b-search__main-form-range span.min,.b-search__main-form-range span.max{
-    color:#6c6c6c;
-}
-
-.b-search__main-form-submit button.btn.m-btn:hover span{
-    color:#6a6a6a!important;
-}
-/*b-search*/
 
 /*b-featured*/
 .b-featured{
@@ -627,15 +547,7 @@ body{
 }
 /*b-slider*/
 
-/*b-search*/
-.m-home .b-search .container > h1{
-    color:#555;
-}
 
-.m-home .b-search__main >h4{
-    color:#0011a7;   
-}
-/*b-search*/
 
 /*b-featured*/
 .m-home .b-featured .s-title{

@@ -8,8 +8,8 @@ import Listin from './Listin.js';
 import World from './Components/World/World.js';
 import Welcome from './Components/Welcome/Welcome.js';
 import HomeAuto from './Components/HomeAuto/HomeAuto.js';
-import Home from './Components/HomeReviews/Home.js';
 import Asks from './Components/Asks/Asks.js';
+import Profil from './Components/Profil/Profil.js';
 
 class HomePage extends React.Component {
 	// state = {
@@ -26,12 +26,12 @@ class HomePage extends React.Component {
 			<>
 				<Slider />
 		        <Search />
-				{/* <EtapeBlock /> */}
-		       	<World />
-				<Welcome />
+				{/* <EtapeBlock />  */}
+		    	<Welcome />
+				  <World />
 				<HomeAuto />
-				<Home />
 				<Asks />
+				<Profil /> 
 			</>
 		)
 	}

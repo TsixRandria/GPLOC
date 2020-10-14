@@ -364,180 +364,10 @@ a.m-langLink{
 }
 
 
-/* Search */
-.b-search{
-    height:300px;
-}
-
-.b-search__main{
-    text-align: center;
-    height:480px;
-    margin-top: -125px;
-    padding: 35px 60px 50px 60px;
-    z-index: 1000;
-    position: relative;
-    box-shadow:0 0 10px rgba(0,0,0,0.1);
-}
-
-.b-search__main-title{
-    padding: 15px 20px;
-    display: inline-block;
-    margin-bottom: 45px;
-}
-
-.b-search__main-title h2{
-    font:700 18px 'Open Sans',sans-serif;
-    margin:0;
-    padding: 0 10px;
-    border-left: 4px solid #fff;
-    border-right: 4px solid #fff;
-    line-height:1.1;
-}
-
-.b-search__main-type{
-    margin-bottom: 35px;
-    overflow: hidden;
-}
-
-.b-search__main-type svg,.b-search__main-type h5{
-   cursor: pointer; 
-}
-
-.b-search__main-type svg:hover g{
-    fill: #f76d2b;
-}
-
-.b-search__main-type-svg{
-    display: block;
-    margin: 0;
-}
-
-.b-search__main-type input[type='radio']{
-    visibility: hidden;
-    position: absolute;
-}
-
-.b-search__main-type input[type='radio']:checked + label.b-search__main-type-svg + h5{
-    border-bottom:1px solid #B4B4B4;
-    text-align: center;
-    margin-bottom: -1px;
-}
-
-.b-search__main-type input[type='radio']:checked + label.b-search__main-type-svg + h5:after{
-    background: url(../images/elements/chevron-down.png) center no-repeat;
-    width:100%;
-    height:7px;
-    content:'';
-    position: absolute;
-    top:100%;
-    display: block;
-}
-
-.b-search__main-type h4{
-   text-transform: uppercase;
-   font:600 14px 'Open Sans',sans-serif;
-   text-align: right;
-   margin: 20px 0 0 0;
-}
-
-.b-search__main-type h5{
-    color:#999999;
-    text-transform: uppercase;
-    font:600 10px 'Open Sans',sans-serif;
-    padding: 0 0 20px 0;
-    margin:0 0 7px 0;
-    position: relative;
-}
-
-.b-search__main-type h5 label{
-    cursor: pointer;
-    margin: 0;
-}
-
-.b-search__main-form select{
-    width:100%;
-    padding: 10px 20px 10px 25px;
-    border:1px solid #eeeeee;
-    border-radius:30px;
-    font:400 13px 'Open Sans',sans-serif;
-    background: transparent;
-    -webkit-appearance: none;
-     -moz-appearance: none;
-     -ms-appearance: none;
-    appearance: none!important;
-    cursor:pointer;
-}
-
-.b-search__main-form select + span.fa{
-    top:14px;
-    right:45px;
-    position: absolute;        
-}
-
-.b-search__main-form select:focus{
-    outline: none;
-}
-
-.b-search__main-form p{
-   text-align: left;
-   font:400 10px 'Open Sans',sans-serif;
-   padding-left: 10px;
-   margin-top: 10px;
-   margin-bottom: 0;
-   text-transform: uppercase;
-}
-
 .m-firstSelects{
     margin-bottom: 45px;
     overflow: hidden;
 }
-
-.b-search__main-form label{
-    text-transform: uppercase;
-    font: 600 14px 'Open Sans',sans-serif;
-    text-align: right;
-    margin: 11px 0 0 0;
-    float:left;
-    display: block;
-}
-
-.b-search__main-form-submit{
-    text-align:right;
-}
-
-.b-search__main-form-submit a{
-    font: 400 10px 'Open Sans',sans-serif;
-    text-transform: uppercase;
-    margin-right: 13px;
-}
-
-.b-search__main-form-submit button{
-    padding: 3px 3px 3px 20px!important;
-    text-transform: uppercase;
-}
-
-.b-search__main-form-submit button:focus.b-search__main-form-submit button:active{
-    outline: none;
-}
-
-.b-search__main-form-range{
-    margin-bottom: 105px;
-}
-
-.b-search__main-form-range span.min,.b-search__main-form-range span.max{
-    position: absolute;
-    top:150%;
-    left: -3px;
-    font: 400 12px 'Open Sans',sans-serif;
-    text-decoration: none;
-}
-
-/*.b-search__main-form-range span{
-    display: inline-block;
-    width:225px;
-    margin-left: 15px;
-}
-*/
 
 .slider{
     height:12px;
@@ -740,8 +570,9 @@ a.m-langLink{
 
 /* Welcome */
 .b-welcome{
-  background:url(../images/backgrounds/audiBg.png) left top no-repeat;
+
   position: relative;
+  margin-top: 40px;
 }
 
 .b-welcome .container{

@@ -51,6 +51,7 @@ class Slider extends React.Component {
 							<span className="fa fa-angle-left m-control-left"></span>
 						</a>
 					</div>
+					
 				</section>
 
 			</>

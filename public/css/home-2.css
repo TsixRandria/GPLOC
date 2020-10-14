@@ -24,49 +24,6 @@
     line-height: 1!important;
 }
 
-/* Search */
-.m-home .b-search__main{
-    margin-top: 0;
-    height:320px;
-}
-
-.m-home .b-search .container > h1{
-    text-transform: uppercase;
-    font: 700 20px 'Open Sans',sans-serif;
-    text-align: center;
-    margin: 45px 0 40px 0;
-}
-
-.m-home .b-search__main >h4{
-    text-transform: uppercase;
-    font: 600 12px 'Open Sans',sans-serif;
-    margin:0 0 45px 0;
-    padding-bottom: 20px;  
-    position: relative;
-    display: inline-block;
-}
-
-.m-home .b-search__main >h4:before{
-    height:1px;
-    width: 70%;
-    left:15%;
-    border-bottom: 1px solid #B4B4B4;
-    content: '';
-    position: absolute;
-    top: 100%;
-    display: block;
-}
-
-.m-home .b-search__main >h4:after{
-    background: url(../images/elements/chevron-down.png) center no-repeat;
-    width: 100%;
-    height: 7px;
-    content: '';
-    position: absolute;
-    top: 100%;
-    display: block;
-}
-
 /* World */
 .m-home .b-world{
     padding-top: 150px;
@@ -485,4 +442,31 @@
     border-radius: 100%;
     font-size:20px;
     padding: 2px;
+}
+/* search */
+.b-search__main{
+    /* background-image: url(../images/backgrounds/fondresa_lang2.png); */
+    background-image: url(../images/backgrounds/fondresa_lang2.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    
+} 
+
+.b-search__main-type input[type='radio']:checked + label.b-search__main-type-svg + h5:after{
+    background: url(../images/elements/chevron-down.png) center no-repeat;
+    width:100%;
+    height:7px;
+    content:'';
+    position: absolute;
+    top:100%;
+    display: block;
+} 
+.m-home .b-search__main >h4:after{
+    background: url(../images/elements/chevron-down.png) center no-repeat;
+    width: 100%;
+    height: 7px;
+    content: '';
+    position: absolute;
+    top: 100%;
+    display: block;
 }
