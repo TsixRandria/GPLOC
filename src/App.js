@@ -23,7 +23,7 @@ function App() {
         <Route exact path='/Login' component={Login} />
         <Route exact path='/Signup' component={Signup} />
         <Route exact path='/Aeroport' component={Aeroport}/>
-        <Route exact path='/Saint' component={Saint}/>
+        <Route exact path='/Sainte-Marie' component={Saint}/>
         <Route exact path='/Condition' component={Condition}/>
           <Footer />  
     </BrowserRouter>
