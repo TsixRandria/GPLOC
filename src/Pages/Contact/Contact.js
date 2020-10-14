@@ -22,34 +22,44 @@ class Contact extends React.Component {
 							<div className="col-md-6">
 								<div className="b-contacts__form">
 									<header className="b-contacts__form-header s-lineDownLeft wow zoomInUp" data-wow-delay="0.5s">
-										<h2 className="s-titleDet">voulez-vous contacter GP Location ?</h2> 
+										<h2 className="s-titleDet">Formulaire de contact</h2> 
 									</header>
-									<p className=" wow zoomInUp" data-wow-delay="0.5s">Vous rencontrez une difficulté lors de votre réservation sur notre site ? Vous souhaitez nous faire part d'un bug ?</p>
+									<p className=" wow zoomInUp" data-wow-delay="0.5s">Pour nous contacter, merci de remplir le formulaire ci-dessous.</p>
 									<div id="success"></div>
-									<form id="contactForm" noValidate className="s-form wow zoomInUp" data-wow-delay="0.5s">
+									<form id="contactForm" noValidate className="b-contacts__address-hours-main s-form wow zoomInUp" data-wow-delay="0.5s">
 										
-										<input type="text" placeholder="VOTRE NOM" defaultValue="" name="user-name" id="user-name" />
-										<input type="text" placeholder="VOTRE PRENOM" defaultValue="" name="user-name" id="user-lastname" />
-										<input type="text" placeholder="VOTRE ADRESSE EMAIL " defaultValue="" name="user-email" id="user-email" />
-										<input type="text" placeholder="VOTRE NUMERO TELEPHONE." defaultValue="" name="user-phone" id="user-phone" />
-										<textarea id="user-message" name="user-message" placeholder="COMMENTAIRE/SUGGESTIONS/FEEDBACK"></textarea>
+										<input type="text" placeholder="Nom*" defaultValue="" name="user-name" id="user-name" />
+										<input type="text" placeholder="Prénom*" defaultValue="" name="user-name" id="user-lastname" />
+										<input type="text" placeholder="Email*" defaultValue="" name="user-email" id="user-email" />
+										<input type="text" placeholder="Téléphone*" defaultValue="" name="user-phone" id="user-phone" />
+										<textarea id="user-message" name="user-message" placeholder="Message*"></textarea>
+										<p className="p">* Champs obligatoires</p>
+										<div id="captcha" class="g-recaptcha" data-sitekey="6Lf_Z9AZAAAAABZooEnLXqd6LygH7qA0-_psasJQ"></div>
 										<button type="submit" className="btn m-btn">VALIDER    <span className="fa fa-angle-right"></span></button>
+										
 									</form>
 								</div>
 							</div>
 							<div className="col-md-6" textAlign ="">
 								<div className="b-contacts__address">
 									<div className="b-contacts__address-hours">
-										<h2 className="s-titleDet wow zoomInUp" data-wow-delay="0.5s">Horaires d'ouvertures</h2>
+										<h2 className="s-titleDet wow zoomInUp" data-wow-delay="0.5s">Service client</h2>
 										<div className="b-contacts__address-hours-main wow zoomInUp" data-wow-delay="0.5s">
 											<div className="row">
-												<div className="col-md-6 col-xs-12">
-													<h5>Département des locations</h5>
-													<p>Lun-Ven : 8:00am - 4:00pm <br/>Le dimanche est fermé</p>
+												<div className="text-center">
+													<h5>Vous avez des questions ou des remarques ? Appelez-nous au <br/> 06 92 370 380 !</h5>
 												</div>
-												<div className="col-md-6 col-xs-12">
-													<h5>Département des services</h5>
-													<p>Lun-Ven : 8:00am - 4:00pm <br/>Le dimanche est fermé</p>
+											</div>
+										</div>
+									</div>
+									<div className="b-contacts__address-hours">
+										<h2 className="s-titleDet wow zoomInUp" data-wow-delay="0.5s">Site Internet</h2>
+										<div className="b-contacts__address-hours-main wow zoomInUp" data-wow-delay="0.5s">
+											<div className="row">
+												<div className="text-center">
+													<h5>Vous rencontrez une difficulté lors de votre réservation sur notre site ? Vous souhaitez nous faire part d'un bug ?</h5>
+
+															<p>Merci de remplir le formulaire ci-contre.</p>
 												</div>
 											</div>
 										</div>
@@ -58,40 +68,36 @@ class Contact extends React.Component {
 										<h2 className="s-titleDet wow zoomInUp" data-wow-delay="0.5s">A PROPOS</h2>
 										<address className="b-contacts__address-info-main wow zoomInUp" data-wow-delay="0.5s">
 											<div className="b-contacts__address-info-main-item">
-												<span className="fa fa-home"></span>
-												ADRESSE  <p>34 rue de la Plantation </p>
+												<div className="row">
+													<div className="col-lg-4 col-md-4 col-xs-12">
+														<span className="fa fa-home"></span>
+														ADRESSE
+													</div>
+													<div className="col-lg-8 col-md-8 col-xs-12">
+														<em>34 Rue de la Plantation - 97438 Sainte-Marie</em>
+													</div>
+												</div>
 												
 											</div>
 											<div className="b-contacts__address-info-main-item">
 												<div className="row">
-													<div className="col-lg-3 col-md-4 col-xs-12">
+													<div className="col-lg-4 col-md-4 col-xs-12">
 														<span className="fa fa-phone"></span>
 														TELEPHONE
 													</div>
-													<div className="col-lg-9 col-md-8 col-xs-12">
+													<div className="col-lg-8 col-md-8 col-xs-12">
 														<em>06 92 370 380</em>
 													</div>
 												</div>
 											</div>
 											<div className="b-contacts__address-info-main-item">
 												<div className="row">
-													<div className="col-lg-3 col-md-4 col-xs-12">
-														<span className="fa fa-fax"></span>
-														FAX
-													</div>
-													<div className="col-lg-9 col-md-8 col-xs-12">
-														<em>000 00 000 00</em>
-													</div>
-												</div>
-											</div>
-											<div className="b-contacts__address-info-main-item">
-												<div className="row">
-													<div className="col-lg-3 col-md-4 col-xs-12">
+													<div className="col-lg-4 col-md-4 col-xs-12">
 														<span className="fa fa-envelope"></span>
 														EMAIL
 													</div>
-													<div className="col-lg-9 col-md-8 col-xs-12">
-														<em>gplocation@gmail.com</em>
+													<div className="col-lg-8 col-md-8 col-xs-12">
+														<em>infos@gplocation.fr</em>
 													</div>
 												</div>
 											</div>
