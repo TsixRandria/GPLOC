@@ -81,7 +81,7 @@ class Footer extends React.Component {
 				 				           <a href="/Saint" className="text">Sainte-Marie</a>
 										</div>
 										<div className="b-info__contacts-item">											
-				 				           <a href="/Mentions-légales" className="text">Mentions légales</a>
+				 				           <a href="/Mentions-legales" className="text">Mentions légales</a>
 										</div>
 									</address>
 									
