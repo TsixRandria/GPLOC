@@ -17,7 +17,7 @@ class Condition extends React.Component {
 					</section>
 				</a>
 
-				<section className="b-best">
+				<section className="b-best text-justify">
 					<div className="container">
 						<div className="row">
 							<div className="col-sm-6 col-xs-12">
@@ -34,13 +34,13 @@ class Condition extends React.Component {
 								</div>
 							</div>
 							<div className="col-sm-6 col-xs-12">
-								<img className="img-responsive center-block wow zoomInUp" data-wow-delay="0.5s" alt="best" src="media/about/image1.jpg" />
+								<img className="img-responsive center-block wow zoomInUp" data-wow-delay="0.5s" alt="best" src="media/about/image1.jpg" width = "586" height = "392.62"/>
 							</div>
 						</div>
 					</div>
 				</section>
 
-				<section className="b-best">
+				<section className="b-best text-justify">
 					<div className="container">
 						<div className="row">
 							<div className="col-sm-6 col-xs-12">
@@ -53,13 +53,13 @@ class Condition extends React.Component {
 								</div>
 							</div>
 							<div className="col-sm-6 col-xs-12">
-								<img className="img-responsive center-block wow zoomInUp" data-wow-delay="0.5s" alt="best" src="media/about/img7.jpg" />
+								<img className="img-responsive center-block wow zoomInUp" data-wow-delay="0.5s" alt="best" src="media/about/img7.jpg" width = "586" height = "392.62"/>
 							</div>
 						</div>
 					</div>
 				</section>
 
-				<section className="b-best">
+				<section className="b-best text-justify">
 					<div className="container">
 						<div className="row">
 							<div className="col-sm-6 col-xs-12">
@@ -71,13 +71,13 @@ class Condition extends React.Component {
 								</div>
 							</div>
 							<div className="col-sm-6 col-xs-12">
-								<img className="img-responsive center-block wow zoomInUp" data-wow-delay="0.5s" alt="best" src="media/about/image3.jpg" />
+								<img className="img-responsive center-block wow zoomInUp" data-wow-delay="0.5s" alt="best" src="media/about/image3.jpg" width = "586" height = "392.62"/>
 							</div>
 						</div>
 					</div>
 				</section>
 
-				<section className="b-best">
+				<section className="b-best text-justify">
 					<div className="container">
 						<div className="row">
 							<div className="col-sm-6 col-xs-12">
@@ -96,14 +96,14 @@ class Condition extends React.Component {
 								</div>
 							</div>
 							<div className="col-sm-6 col-xs-12">
-								<img className="img-responsive center-block wow zoomInUp" data-wow-delay="0.5s" alt="best" src="media/about/image4.jpg" />
+								<img className="img-responsive center-block wow zoomInUp" data-wow-delay="0.5s" alt="best" src="media/about/image4.jpg" width = "586" height = "392.62"/>
 								
 							</div>
 						</div>
 					</div>
 				</section>
 
-				<section className="b-best">
+				<section className="b-best text-justify">
 					<div className="container">
 						<div className="row">
 							<div className="col-sm-6 col-xs-12">
@@ -117,14 +117,14 @@ class Condition extends React.Component {
 								</div>
 							</div>
 							<div className="col-sm-6 col-xs-12">
-								<img className="img-responsive center-block wow zoomInUp" data-wow-delay="0.5s" alt="best" src="media/about/image5.jpg" />
+								<img className="img-responsive center-block wow zoomInUp" data-wow-delay="0.5s" alt="best" src="media/about/image5.jpg" width = "586" height = "392.62"/>
 							</div>
 						</div>
 					</div>
 				</section>
 
 				
-				<section className="b-best">
+				<section className="b-best text-justify">
 					<div className="container">
 						<div className="row">
 							<div className="col-sm-6 col-xs-12">
@@ -139,13 +139,13 @@ class Condition extends React.Component {
 								</div>
 							</div>
 							<div className="col-sm-6 col-xs-12">
-								<img className="img-responsive center-block wow zoomInUp" data-wow-delay="0.5s" alt="best" src="media/about/image6.jpg" />
+								<img className="img-responsive center-block wow zoomInUp" data-wow-delay="0.5s" alt="best" src="media/about/image6.jpg" width = "586" height = "392.62"/>
 							</div>
 						</div>
 					</div>
 				</section>
 
-				<section className="b-best">
+				<section className="b-best text-justify">
 					<div className="container">
 						<div className="row">
 							<div className="col-sm-6 col-xs-12">
@@ -177,14 +177,14 @@ class Condition extends React.Component {
 								</div>
 							</div>
 							<div className="col-sm-6 col-xs-12">
-								<img className="img-responsive center-block wow zoomInUp" data-wow-delay="0.5s" alt="best" src="media/about/image8.jpg" />
+								<img className="img-responsive center-block wow zoomInUp" data-wow-delay="0.5s" alt="best" src="media/about/image8.jpg" width = "586" height = "392.62"/>
 								
 							</div>
 						</div>
 					</div>
 				</section>
 
-				<div className="b-best">
+				<div className="b-best text-justify">
 					<div className="container">
 						<div className="row">
 							<div className="col-sm-6 col-xs-12">
@@ -214,7 +214,7 @@ class Condition extends React.Component {
 								</div>
 							</div>
 							<div className="col-sm-6 col-xs-12">
-								<img className="img-responsive center-block wow zoomInUp" data-wow-delay="0.5s" alt="best" src="media/about/image2.jpg" />
+								<img className="img-responsive center-block wow zoomInUp" data-wow-delay="0.5s" alt="best" src="media/about/image2.jpg" width = "586" height = "392.62"/>
 								
 							</div>
 						</div>
@@ -224,7 +224,7 @@ class Condition extends React.Component {
 				<div className="col-sm-12 col-xs-12">
 					<h5 data-wow-delay="0.5s">Afin d’éviter tout malentendu ou contestation lors du retour du véhicule, vous trouverez ci dessous le barème concernant les éventuels dégâts de carrosserie que nous pourrions être amenés à constater ensemble et à vous facturer à votre retour. Les pièces détachées à remplacer vous seront facturées au tarif TTC concessionnaire.</h5>
 				</div>
-				<section className="b-best">
+				<section className="b-best text-justify">
 					<div className="b-compare__block wow zoomInUp" data-wow-delay="0.3s">
 						<center>
 							<div >
