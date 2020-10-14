@@ -79,7 +79,7 @@ class Header extends React.Component {
 							<div className="row">
 								<div className="col-sm-3 col-xs-4">
 									<div className="b-nav__logo wow slideInLeft" data-wow-delay="0.3s">
-										<h3><a href="home.html">GP<span>Location</span></a></h3>
+										<h3><a href="/">GP<span>Location</span></a></h3>
 										<h2><a href="/">Location de voiture à la REunion</a></h2>
 									</div>
 								</div>
@@ -100,7 +100,7 @@ class Header extends React.Component {
 												</li>
 												
 												<li><Link to="/Aeroport">Aéroport de Roland-Garros</Link></li>
-												<li><Link to="Saint">Sainte-Marie</Link></li>
+												<li><Link to="/Saint-Marie">Sainte-Marie</Link></li>
 												<li><Link to="/Condition">Conditions générales de location</Link></li>
 												
 	

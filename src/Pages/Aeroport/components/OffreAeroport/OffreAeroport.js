@@ -4,46 +4,65 @@ class OffreAeroport extends Component {
     render() {
         return (
         	<>
-				<section className="b-what s-shadow m-home">
+				<section className="b-world">
+				<center><h2 className="s-title">Découvrir l'île de la Réunion à bord d'une voiture de location</h2></center>
 					<div className="container">
-						<p className="s-title wow zoomInUp" data-wow-delay="0.5s" style={{visibility: "visible", animationDelay: "0.5s", animationName: "zoomInUp"}}>Votre voiture de location à l'aéroport de la Réunion Roland-Garros !</p>
 						<div className="row">
 							<div className="col-sm-4 col-xs-12">
-								<div className="b-world__item wow zoomInLeft" data-wow-delay="0.5s" style={{visibility: "visible", animationDelay: "0.5s", animationName: "ZoomInLeft"}}>
-									<img className="img-responsive" src="media/370x200/car3.jpg" alt="wolks"/>
+								<div className="b-world__item wow zoomInUp" data-wow-delay="0.3s">
+									<img className="img-responsive"  src="media/370x200/C1.jpg" alt="mazda" />
 									<div className="b-world__item-val">
-										<span className="b-world__item-val-title">WE OFFER</span>
+										<span className="b-world__item-val-title">CITROËN </span>
 									</div>
-									<h2>Low Prices, No Haggling</h2>
-									<p>Curabitur libero. Donec facilisis velit eu est. Phasellus cons quat. Aenean vitae quam. Vivamus et nunc. Nunc consequ
-									sem velde metus imperdiet lacinia.</p>
+									<h2>C1 ou Toyota Aygo</h2>
+									<p>
+										<ul>
+											<li>4 places</li>
+											<li>Boîte manuelle</li>
+											<li>Essence</li>
+											<li>Climatisation : oui</li>
+										</ul>
+									</p>
 								</div>
 							</div>
 							<div className="col-sm-4 col-xs-12">
-								<div className="b-world__item wow zoomInUp" data-wow-delay="0.5s" style={{visibility: "visible", animationDelay: "0.5s", animationName: "zoomInUp"}}>
-									<img className="img-responsive" src="media/370x200/car2.jpg" alt="mazda"/>
+								<div className="b-world__item wow zoomInLeft" data-wow-delay="0.3s">
+									<img className="img-responsive" src="media/370x200/car2.jpg" alt="wolks" />
 									<div className="b-world__item-val">
-										<span className="b-world__item-val-title">WE ARE THE</span>
+										<span className="b-world__item-val-title">RENAULT</span>
 									</div>
-									<h2>Largest Car Dealership</h2>
-									<p>Curabitur libero. Donec facilisis velit eu est. Phasellus cons quat. Aenean vitae quam. Vivamus et nunc. Nunc consequ
-									sem velde metus imp         erdiet lacinia.</p>
+									<h2>Dacia Duster Diesel Automatique</h2>
+									<p>
+										<ul>
+											<li>5 places</li>
+											<li>Boîte automatique</li>
+											<li>Diesel</li>
+											<li>Climatisation : oui</li>
+										</ul>
+									</p>
 								</div>
 							</div>
 							<div className="col-sm-4 col-xs-12">
-								<div className="b-world__item wow zoomInRight" data-wow-delay="0.5s" style={{visibility: "visible", animationDelay: "0.5s", animationName: "zoomInUp"}}>
-									<img className="img-responsive" src="media/370x200/car3.jpg" alt="chevrolet"/>
+								<div className="b-world__item wow zoomInRight" data-wow-delay="0.3s">
+									<img className="img-responsive"  src="media/370x200/car3.jpg" alt="chevrolet" />
 									<div className="b-world__item-val">
-										<span className="b-world__item-val-title">Chevrolet</span>
+										<span className="b-world__item-val-title">CHEVROLET</span>
 									</div>
-									<h2>Multipoint Safety Check</h2>
-									<p>Voiture fiable. resistante. Aucune panne en 8 annees. Bonne petite voiture toute simple.
-										Vous pouvez y aller en urbain, sur route, en montagne, le moteur et les equipements ne vous lacherons pas.</p>
+									<h2>Dacia Logan Diesel</h2>
+									<p>
+										<ul>
+											<li>5 places</li>
+											<li>Boîte manuelle</li>
+											<li>Diesel</li>
+											<li>Climatisation : oui</li>
+										</ul>
+									</p>
 								</div>
 							</div>
 						</div>
 					</div>
 				</section>
+
         	</>
 		)
 

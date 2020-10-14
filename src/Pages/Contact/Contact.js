@@ -34,11 +34,13 @@ class Contact extends React.Component {
 										
 										<input type="text" placeholder="Nom" defaultValue="" name="user-name" id="user-name" />
 										<input type="text" placeholder="Prénom" defaultValue="" name="user-name" id="user-lastname" />
+
 										<input type="text" placeholder="Email" defaultValue="" name="user-email" id="user-email" />
 										<input type="text" placeholder="Téléphone" defaultValue="" name="user-phone" id="user-phone" />
 										<textarea id="user-message" name="user-message" placeholder="Message"></textarea>
 										<p className="p">* Champs obligatoires</p>
 										<fieldset><ReCAPTCHA sitekey="6LdXP9cZAAAAAOjXVT_t6gXbM8gNuQXyvK9qPhr2" onChange={onChange} /></fieldset>
+
 										<button type="submit" className="btn m-btn">VALIDER    <span className="fa fa-angle-right"></span></button>
 										
 									</form>
