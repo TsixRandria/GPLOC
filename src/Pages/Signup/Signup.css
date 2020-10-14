@@ -1,3 +1,4 @@
+
 .contenu{
   background-image: url(../../img/254.jpg);
   background-position: right;
@@ -32,6 +33,7 @@
 }
 .m-btn{
   margin-left: 30%;
+}
   margin-bottom: 10px;
 }
 .teny{
@@ -50,3 +52,4 @@
   cursor: pointer;
   color: #1ca700;
 }
+
