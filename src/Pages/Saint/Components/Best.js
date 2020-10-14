@@ -4,25 +4,65 @@ import React, { Component } from 'react'
     render() {
         return (
             <div>
-                <section class="b-best">
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-6 col-xs-12">
-								<div class="b-best__info">
-									<header class="s-lineDownLeft b-best__info-head">
-										<h2 class="wow zoomInUp" data-wow-delay="0.5s">Votre voiture de location à Sainte-Marie !</h2>
-									</header>
-									<h6 class="wow zoomInUp" data-wow-delay="0.5s">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod etg tempor incididunt ut labore dolore magna aliqua. </h6>
-									<p class="wow zoomInUp" data-wow-delay="0.5s">Curabitur libero. Donec facilisis velit eu est. Phasellus cons quat. Aenean vitae quam mus etern nunc. Nunc conseq sem velde metus imperdiet lacinia. Aenean vulputate. Donec vene natis leo curabitur at neque ut sapien fusce cursus dapibus ligula Lorem ipsum dolor sitter amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Uit enim ad minim veniami quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commod consequat. Duis aute irure dolor in reprehenderit.</p>
-									<a href="article.html" class="btn m-btn m-readMore wow zoomInUp" data-wow-delay="0.5s">view listings<span class="fa fa-angle-right"></span></a>
+                <section className="b-world">
+				<center><h2 className="s-title">Découvrir l'île de la Réunion à bord d'une voiture de location</h2></center>
+					<div className="container">
+						<div className="row">
+							<div className="col-sm-4 col-xs-12">
+								<div className="b-world__item wow zoomInUp" data-wow-delay="0.3s">
+									<img className="img-responsive"  src="media/370x200/C1.jpg" alt="mazda" />
+									<div className="b-world__item-val">
+										<span className="b-world__item-val-title">CITROËN </span>
+									</div>
+									<h2>C1 ou Toyota Aygo</h2>
+									<p>
+										<ul>
+											<li>4 places</li>
+											<li>Boîte manuelle</li>
+											<li>Essence</li>
+											<li>Climatisation : oui</li>
+										</ul>
+									</p>
 								</div>
 							</div>
-							<div class="col-sm-6 col-xs-12">
-								<img class="img-responsive center-block wow zoomInUp" data-wow-delay="0.5s" alt="best" src="media/about/best.jpg" />
+							<div className="col-sm-4 col-xs-12">
+								<div className="b-world__item wow zoomInLeft" data-wow-delay="0.3s">
+									<img className="img-responsive" src="media/370x200/car2.jpg" alt="wolks" />
+									<div className="b-world__item-val">
+										<span className="b-world__item-val-title">RENAULT</span>
+									</div>
+									<h2>Dacia Duster Diesel Automatique</h2>
+									<p>
+										<ul>
+											<li>5 places</li>
+											<li>Boîte automatique</li>
+											<li>Diesel</li>
+											<li>Climatisation : oui</li>
+										</ul>
+									</p>
+								</div>
+							</div>
+							<div className="col-sm-4 col-xs-12">
+								<div className="b-world__item wow zoomInRight" data-wow-delay="0.3s">
+									<img className="img-responsive"  src="media/370x200/car3.jpg" alt="chevrolet" />
+									<div className="b-world__item-val">
+										<span className="b-world__item-val-title">CHEVROLET</span>
+									</div>
+									<h2>Dacia Logan Diesel</h2>
+									<p>
+										<ul>
+											<li>5 places</li>
+											<li>Boîte manuelle</li>
+											<li>Diesel</li>
+											<li>Climatisation : oui</li>
+										</ul>
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</section>
+
             </div>
         )
     }

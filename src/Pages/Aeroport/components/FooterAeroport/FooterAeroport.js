@@ -5,56 +5,56 @@ import React, { Component } from 'react'
         return (
         <>	
         	<section className="b-more">
-			<div className="container">
-				<div className="row">
-					<div className="col-sm-6 col-xs-12">
-						<div className="b-more__why wow zoomInLeft" data-wow-delay="0.5s" style={{visibility: "visible", animationDelay: "0.5s", animationName: "ZoomInLeft"}}>
-							<h2 className="s-title">WHY CHOOSE US</h2>
-							<p>Curabitur libero. Donec facilisis velit eu est. Phasellus cons quat. Aenean vitae quam. Vivamus etyd nunc. Nunc consequsem velde metus imperdiet lacinia. Lorem ipsum dolor sit amet sed consectetur adipisicing elit sed do eiusmod.</p>
-							<ul className="s-list">
-								<li><span className="fa fa-check"></span>Prise en charge à l'aéroport ou au port avec votre véhicule</li>
-								<li><span className="fa fa-check"></span>Kilométrage illimité, assurances incluses</li>
-								<li><span className="fa fa-check"></span>Assistance 7j/7, 24h/24</li>
-								<li><span className="fa fa-check"></span>Large choix de véhicules récents </li>
-								<li><span className="fa fa-check"></span>Ouvert 7j/7 y compris jours fériés</li>
-							</ul>
+				<div className="container">
+					<div className="row">
+						<div className="col-sm-12 col-xs-12">
+							<div className="b-more__why wow zoomInLeft" data-wow-delay="0.5s" style={{visibility: "visible", animationDelay: "0.5s", animationName: "ZoomInLeft"}}>
+								<center><h2 className="s-title">Que visiter à la Réunion depuis l'aéroport Roland Garros ?</h2></center>
+								<p>À bord de votre voiture de location, partez explorer l’île de la Réunion directement depuis l'aéroport Roland Garros. Le code de la route étant le même qu'en métropole, vous ne devriez pas avoir de problème lié à la conduite.
+	                             Non loin de là se trouve la ville de Saint-Denis, labellisée « Ville d'Art et d'Histoire ». Plus de 50 monuments historiques, dont des maisons créoles et des bâtiments coloniaux, se succèdent à partir du rond-point de la Victoire et tout le long de la rue de Paris. Ne manquez pas la visite du jardin de l'État, qui abrite le Museum d'histoire naturelle, où vous découvrirez de nombreuses plantes exotiques.
+	                            Avec le kilométrage illimité inclus dans notre offre, vous pourrez vous rendre plus loin et rejoindre les plus belles plages de l'île de la Réunion. Votre voiture de location vous facilitant le déplacement, n'hésitez pas à vous rendre à la station balnéaire de Saint-Gilles-les-Bains. Vous pourrez y visiter le seul aquarium de l’île de la Réunion, le musée de Villèle ou encore le jardin d'Éden.</p>
+								<div className="b-compare__block wow zoomInUp" data-wow-delay="0.3s">
+                                    <div className="b-compare__block-title s-whiteShadow">
+                                        <h3 className="s-titleDet">Prise en charge à l'aéroport ou au port avec votre véhicule</h3>
+                                        <a className="j-more" href="#"><span className="fa fa-angle-left"></span></a>
+                                    </div>
+                                </div>
+                                <div className="b-compare__block wow zoomInUp" data-wow-delay="0.3s">
+                                    <div className="b-compare__block-title s-whiteShadow">
+                                        <h3 className="s-titleDet">Kilométrage illimité, assurances incluses</h3>
+                                        <a className="j-more" href="#"><span className="fa fa-angle-left"></span></a>
+                                    </div>
+                                </div>
+                                <div className="b-compare__block wow zoomInUp" data-wow-delay="0.3s">
+                                    <div className="b-compare__block-title s-whiteShadow">
+                                        <h3 className="s-titleDet">Assistance 7j/7, 24h/24</h3>
+                                        <a className="j-more" href="#"><span className="fa fa-angle-left"></span></a>
+                                    </div>
+                                </div>
+                                <div className="b-compare__block wow zoomInUp" data-wow-delay="0.3s">
+                                    <div className="b-compare__block-title s-whiteShadow">
+                                        <h3 className="s-titleDet">Large choix de véhicules récents </h3>
+                                        <a className="j-more" href="#"><span className="fa fa-angle-left"></span></a>
+                                    </div>
+                                </div>
+                                <div className="b-compare__block wow zoomInUp" data-wow-delay="0.3s">
+                                    <div className="b-compare__block-title s-whiteShadow">
+                                        <h3 className="s-titleDet">Ouvert 7j/7 y compris jours fériés</h3>
+                                        <a className="j-more" href="#"><span className="fa fa-angle-left"></span></a>
+                                    </div>
+                                </div>    
+							</div>
 						</div>
-					</div>
-					<div className="col-sm-6 col-xs-12">
-						<div className="b-more__info wow zoomInRight" data-wow-delay="0.5s" style={{visibility: "visible", animationDelay: "0.5s", animationName: "ZoomInRight"}}>
-							<h2 className="s-title">MORE INFO</h2>
-							<div className="b-more__info-block">
-								<div className="b-more__info-block-title">Fair Price for Everyone<a className="j-more" href="#"><span className="fa fa-angle-left"></span></a></div>
-								<div className="b-more__info-block-inside j-inside">
-									<p>Curabitur libero. Donec facilisis velit est. Phasellus consquat. Aenean vitae quam. Vivam
-										etl nunc. Nunc con sequsem velde metus imperdiet lacinia. Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt.</p>
-								</div>
-							</div>
-							<div className="b-more__info-block">
-								<div className="b-more__info-block-title">Large Number of Vehicles<a href="#" className="j-more"><span className="fa fa-angle-left"></span></a></div>
-								<div className="b-more__info-block-inside j-inside">
-									<p>Curabitur libero. Donec facilisis velit est. Phasellus consquat. Aenean vitae quam. Vivam
-										etl nunc. Nunc con sequsem velde metus imperdiet lacinia. Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt.</p>
-								</div>
-							</div>
-							<div className="b-more__info-block">
-								<div className="b-more__info-block-title">Auto Loan Available<a href="#" className="j-more"><span className="fa fa-angle-left"></span></a></div>
-								<div className="b-more__info-block-inside j-inside">
-									<p>Curabitur libero. Donec facilisis velit est. Phasellus consquat. Aenean vitae quam. Vivam
-										etl nunc. Nunc con sequsem velde metus imperdiet lacinia. Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt.</p>
-								</div>
-							</div>
-						</div>
+						
 					</div>
 				</div>
-			</div>
 			</section>
 
 
 			<section className="b-personal s-shadow">
 			<div className="container">
-				<h3 className="s-titleBg wow zoomInUp" data-wow-delay="0.5s" style={{visibility: "visible", animationDelay: "0.5s", animationName: "ZoomInUp"}}>the people you can trust ON</h3><br/>
-				<h2 className="s-title wow zoomInUp" data-wow-delay="0.5s" style={{visibility: "visible", animationDelay: "0.5s", animationName: "ZoomInUp"}}>OUR TEAM MEMBERS</h2>
+				
+				<h2 className="s-title wow zoomInUp" data-wow-delay="0.5s" style={{visibility: "visible", animationDelay: "0.5s", animationName: "ZoomInUp"}}>Avis de nos clients</h2>
 				<div id="carousel-small" className="owl-carousel enable-owl-carousel owl-theme" data-items="4" data-navigation="true" data-auto-play="true" data-stop-on-hover="true" data-items-desktop="4" data-items-desktop-small="3" data-items-tablet="2" data-items-tablet-small="2" style={{opacity: "1", display: "block"}}>
 					<div className="owl-wrapper-outer"><div className="owl-wrapper" style={{width: "6080px", left: "0px", display: "block", transition: "all 800ms ease 0s", transform: "translate3d(-1140px, 0px, 0px)"}}><div className="owl-item" style={{width: "380px"}}><div>
 						<div className="b-personal__worker wow zoomInUp" data-wow-delay="0.5s" style={{visibility: "visible", animationDelay: "0.5s", animationName: "ZoomInUp"}}>
@@ -226,21 +226,12 @@ import React, { Component } from 'react'
 			</div>
 		</section>
 
-		<div class="b-features">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-9 col-md-offset-3 col-xs-6 col-xs-offset-6">
-						<ul class="b-features__items">
-							<li class="wow zoomInUp" data-wow-delay="0.3s" data-wow-offset="100" style={{visibility: "visible", animationDelay: "0.3s", animationName: "zoomInUp"}}>Low Prices, No Haggling</li>
-							<li class="wow zoomInUp" data-wow-delay="0.3s" data-wow-offset="100" style={{visibility: "visible", animationDelay: "0.3s", animationName: "zoomInUp"}}>Largest Car Dealership</li>
-							<li class="wow zoomInUp" data-wow-delay="0.3s" data-wow-offset="100" style={{visibility: "visible", animationDelay: "0.3s", animationName: "zoomInUp"}}>Multipoint Safety Check</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
+		
 		</>
         )
     }
 }
 export default FooterAeroport;
+
+
+
