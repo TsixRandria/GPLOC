@@ -100,7 +100,7 @@ class Header extends React.Component {
 												</li>
 												
 												<li><Link to="/Aeroport">Aéroport de Roland-Garros</Link></li>
-												<li><Link to="Saint">Sainte-Marie</Link></li>
+												<li><Link to="/Saint-Marie">Sainte-Marie</Link></li>
 												<li><Link to="/Condition">Conditions générales de location</Link></li>
 												
 	

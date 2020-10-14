@@ -161,7 +161,7 @@ body{
     right:25px!important;
 }
 
-.s-form input[type='text'],.s-form textarea{
+.s-form input[type='text'],[type="password"],.s-form textarea{
     display: block;
     width: 100%;
     margin-bottom: 15px;
@@ -177,7 +177,7 @@ body{
     margin-bottom: 20px;
 }
 
-.s-form input[type='text']:focus,.s-form textarea:focus{
+.s-form input[type='text']:focus,[type="password"]:focus,.s-form textarea:focus{
     outline:none;
 }
 
