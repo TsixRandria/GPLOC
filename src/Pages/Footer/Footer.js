@@ -68,13 +68,16 @@ class Footer extends React.Component {
 				 				           <a href="/Contact" className="text">Contact</a>
 										</div>
 									</address>
-									<address className="b-info__map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14910.02604721598!2d55.511276!3d-20.891932!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdd91245bf0d2d552!2sGP+Location!5e0!3m2!1sfr!2sfr!4v1483431590185" width="264" height="144" frameBorder="0" allowFullScreen></iframe>
-									</address>
+									<div className="map-responsive">
+										<address className="b-info__map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14910.02604721598!2d55.511276!3d-20.891932!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdd91245bf0d2d552!2sGP+Location!5e0!3m2!1sfr!2sfr!4v1483431590185" width="500" height="258" frameBorder="0" allowFullScreen></iframe>
+										</address>
+									</div>
+									
 								</div>
 								<div className="col-md-3 col-xs-6">
 									<address className="b-info__contacts wow slideInUp" data-wow-delay="0.3s">
 										<p>Prise en charge</p>
-										<div className="b-info__contacts-item">
+										<div className="b-info__contacts-item text-justify">
 				 				           <a href="/Aeroport" className="text">Aéroport de la Réunion Roland-Garros</a>
 										</div>
 										<div className="b-info__contacts-item">
