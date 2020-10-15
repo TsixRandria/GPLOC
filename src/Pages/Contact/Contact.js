@@ -47,29 +47,8 @@ class Contact extends React.Component {
 								</div>
 							</div>
 							<div className="col-md-6" textAlign ="">
-								<div className="b-contacts__address">
-									<div className="b-contacts__address-hours">
-										<h2 className="s-titleDet wow zoomInUp" data-wow-delay="0.5s">Service client</h2>
-										<div className="b-contacts__address-hours-main wow zoomInUp" data-wow-delay="0.5s">
-											<div className="row">
-												<div className="text-center">
-													<h5>Vous avez des questions ou des remarques ? Appelez-nous au <br/> 06 92 370 380 !</h5>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div className="b-contacts__address-hours">
-										<h2 className="s-titleDet wow zoomInUp" data-wow-delay="0.5s">Site Internet</h2>
-										<div className="b-contacts__address-hours-main wow zoomInUp" data-wow-delay="0.5s">
-											<div className="row">
-												<div className="text-center">
-													<h5>Vous rencontrez une difficulté lors de votre réservation sur notre site ? Vous souhaitez nous faire part d'un bug ?</h5>
 
-															<p>Merci de remplir le formulaire ci-contre.</p>
-												</div>
-											</div>
-										</div>
-									</div>
+								<div className="b-contacts__address">
 									<div className="b-contacts__address-info">
 										<h2 className="s-titleDet wow zoomInUp" data-wow-delay="0.5s">A PROPOS</h2>
 										<address className="b-contacts__address-info-main wow zoomInUp" data-wow-delay="0.5s">
@@ -109,6 +88,29 @@ class Contact extends React.Component {
 											</div>
 										</address>
 									</div>
+									<div className="b-contacts__address-hours">
+										<h2 className="s-titleDet wow zoomInUp" data-wow-delay="0.5s">Service client</h2>
+										<div className="b-contacts__address-hours-main wow zoomInUp" data-wow-delay="0.5s">
+											<div className="row">
+												<div className="text-center">
+													<h5>Vous avez des questions ou des remarques ? Appelez-nous au <br/> 06 92 370 380 !</h5>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div className="b-contacts__address-hours">
+										<h2 className="s-titleDet wow zoomInUp" data-wow-delay="0.5s">Site Internet</h2>
+										<div className="b-contacts__address-hours-main wow zoomInUp" data-wow-delay="0.5s">
+											<div className="row">
+												<div className="text-center">
+													<h5>Vous rencontrez une difficulté lors de votre réservation sur notre site ? Vous souhaitez nous faire part d'un bug ?</h5>
+
+															<p>Merci de remplir le formulaire ci-contre.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									
 								</div>
 							</div>
 						</div>

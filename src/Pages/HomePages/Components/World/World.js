@@ -8,6 +8,7 @@ class World extends React.Component {
 
 				<section className="b-world">
 					<div className="container">
+					<h2 className="s-title wow zoomInUp" data-wow-delay="0.3s" style={{visibility: "visible", animationDelay: "0.3s", animationName: "zoomInUp"}}>Nos voitures</h2>
 						<div className="row">
 							<div className="col-sm-4 col-xs-12">
 								<div className="b-world__item wow zoomInUp" data-wow-delay="0.3s">
@@ -64,6 +65,10 @@ class World extends React.Component {
 					</div>
 				</section>
 
+
+
+				
+
 			</>
 		)
 	}
@@ -71,3 +76,5 @@ class World extends React.Component {
 
 
 export default World;
+
+
