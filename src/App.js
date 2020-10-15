@@ -9,7 +9,8 @@ import Signup from './Pages/Signup/Signup.js';
 import Aeroport from './Pages/Aeroport/Aeroport.js';
 import Saint from './Pages/Saint/Saint.js';
 import Condition from './Pages/Condition/Condition.js';
- import Footer from './Pages/Footer/Footer.js';
+import Mentions from './Pages/Mentions/Mentions.js';
+import Footer from './Pages/Footer/Footer.js';
 
 
 
@@ -25,6 +26,7 @@ function App() {
         <Route exact path='/Aeroport' component={Aeroport}/>
         <Route exact path='/Sainte-Marie' component={Saint}/>
         <Route exact path='/Condition' component={Condition}/>
+        <Route exact path='/Mentions-legales' component={Mentions}/>
           <Footer />  
     </BrowserRouter>
   );
