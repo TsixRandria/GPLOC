@@ -60,7 +60,7 @@ class Footer extends React.Component {
 											<em>06 92 370 380</em>
 										</div>
 										<div className="b-info__contacts-item">											
-											<span className="fa fa-fax"></span>
+											<span className="fa fa-map-marker"></span>
 											<em>97438 Sainte Marie</em>
 										</div>
 										<div className="b-info__contacts-item">
