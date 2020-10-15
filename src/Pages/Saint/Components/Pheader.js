@@ -25,7 +25,7 @@ import React, { Component } from 'react'
                             <div className="col-sm-12 col-xs-12">
                                 <div className="b-more__why wow zoomInLeft" data-wow-delay="0.5s" style={{visibility: "visible", animationDelay: "0.5s", animationName: "ZoomInLeft"}}>
                                     <center><h2 className="s-title">Besoin d'une voiture de location à Sainte-Marie ?</h2></center>
-                                    <p className="paddingp mbottom10">Pour louer une voiture à Sainte-Marie, rien de plus simple ! <b>Réservez votre voiture en ligne et pas cher avec GP Location.</b></p>
+                                    <p className="text-center paddingp mbottom10">Pour louer une voiture à Sainte-Marie, rien de plus simple ! <b>Réservez votre voiture en ligne et pas cher avec GP Location.</b></p>
                                     <div className="row">
                                         <div className="col-sm-6 col-xs-12">
                                             <div className="b-article__main-related-item wow zoomInUp" data-wow-delay="0.5s">
