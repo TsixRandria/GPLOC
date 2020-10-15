@@ -7,8 +7,9 @@ class Login extends Component {
         return (
             <div>
 
-               <div class="contenu2">
+               <div className="contenu2">
                    <div className="Container">
+
                         <div className="row">
                             <div className="col-md-6 col-xs-12">
                                 <div className="success2">
@@ -36,6 +37,8 @@ class Login extends Component {
                                                     Toutes les pages du site web PayPlug, ainsi que les liens de transmission sont sécurisés en SSL et bénéficient d'un certificat de sécurité Thawte Extended Validation.
                                                 </p>
                                         </section>
+
+                  
                                 </div>
                             </div>
                         </div>

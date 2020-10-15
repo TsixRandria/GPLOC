@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
     render() {
         return (
             <div>
+
                 <section class="b-article">
 			<div class="container">
 				<div class="row">
@@ -67,10 +68,13 @@ D’un rapport qualité/prix très attractif, notre offre de location de voiture
 													</div>
 												</div>
 												<p>En voiture, vous pourrez rallier le sud de l’île pour rejoindre la ville de Saint-Pierre et profiter de son front de mer très animé. Ne manquez pas non plus la visite du Cirque de Mafate ou encore celui de Cilaos, qui vous offriront une vue grandiose et panoramique de l’île. L’île de la Réunion ayant une superficie de 2 500 km² environ, de nombreux endroits paradisiaques sont à découvrir. Les plages de sable fin aux eaux turquoise n’attendent que vous. C'est pourquoi notre gamme de véhicules de location est aussi variée, pour vous offrir un séjour unique et sécurisant.</p>
+
+              
 											</div>
 											
 										</div>
 									</div>
+
 								</div>
 							</div>
 							{/* <div class="b-article__main-related s-shadow">
@@ -110,6 +114,8 @@ D’un rapport qualité/prix très attractif, notre offre de location de voiture
 														<span class="b-blog__posts-one-body-head-notes-note"><span class="fa fa-calendar-o"></span>20th May 2015</span>
 													</div>
 												</div>
+
+								
 											</div>
 										</div>
 									</div>
@@ -131,6 +137,7 @@ D’un rapport qualité/prix très attractif, notre offre de location de voiture
 							
 						</div>
 					</div>
+
 					<div class="col-md-3 col-xs-12">
 						<aside class="b-blog__aside">
  
@@ -246,6 +253,7 @@ D’un rapport qualité/prix très attractif, notre offre de location de voiture
 							
 							
 						</aside>
+
 					</div>
 				</div>
 			</div>

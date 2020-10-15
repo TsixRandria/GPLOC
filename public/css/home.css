@@ -1540,6 +1540,7 @@ a.m-langLink{
 /* Info */
 .b-info{
     padding: 55px 0 80px 0;
+    height: 500px;
 }
 
 .b-info__aside{

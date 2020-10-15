@@ -25,7 +25,7 @@ import React, { Component } from 'react'
                             <div className="col-sm-12 col-xs-12">
                                 <div className="b-more__why wow zoomInLeft" data-wow-delay="0.5s" style={{visibility: "visible", animationDelay: "0.5s", animationName: "ZoomInLeft"}}>
                                     <center><h2 className="s-title">Besoin d'une voiture de location à Sainte-Marie ?</h2></center>
-                                    <p className="paddingp mbottom10">Pour louer une voiture à Sainte-Marie, rien de plus simple ! <b>Réservez votre voiture en ligne et pas cher avec GP Location.</b></p>
+                                    <p className="text-center paddingp mbottom10">Pour louer une voiture à Sainte-Marie, rien de plus simple ! <b>Réservez votre voiture en ligne et pas cher avec GP Location.</b></p>
                                     <div className="row">
                                         <div className="col-sm-6 col-xs-12">
                                             <div className="b-article__main-related-item wow zoomInUp" data-wow-delay="0.5s">
@@ -36,8 +36,7 @@ import React, { Component } from 'react'
                                                     <div className="col-xs-8">
                                                         <h5><a>Vous effectuez votre réservation en ligne</a></h5>  
                                                         <div className="b-blog__posts-one-body-head-notes">
-                                                            <span className="b-blog__posts-one-body-head-notes-note"><span ></span>Réservez 7j/7 24h/24</span><br />
-                                                            <span className="b-blog__posts-one-body-head-notes-note"><span ></span>votre voiture de location au meilleur prix sur notre site Internet</span>
+                                                           <span className="b-best__info"><strong>Réservez 7j/7 24h/24 </strong>votre voiture de location au meilleur prix sur notre site Internet.</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -52,7 +51,7 @@ import React, { Component } from 'react'
                                                     <div className="col-xs-8">
                                                         <h5><a>Confirmation de votre location</a></h5>  
                                                         <div className="b-blog__posts-one-body-head-notes">
-                                                            <span className="b-blog__posts-one-body-head-notes-note"><span ></span>Votre confirmation de réservation<br/> est envoyée par email prête à être imprimée.</span>
+                                                            <span className="b-best__info"><strong>Votre confirmation de réservation </strong>est envoyée par email prête à être imprimée.</span>
                                                             
                                                         </div>
                                                     </div>

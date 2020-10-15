@@ -47,7 +47,7 @@ class Header extends React.Component {
 										06-92-370-380
 									</div>
 								</div>
-								<div className="col-md-5 col-xs-6">
+								<div className="col-md-7 col-xs-6">
 									<nav className="b-topBar__nav">
 										<ul>
 											<li><Link to="/Contact">Contact</Link></li>
@@ -55,20 +55,6 @@ class Header extends React.Component {
 											<li><Link to="/Signup">S'inscrire</Link></li>
 										</ul>
 									</nav>
-								</div>
-								<div className="col-md-2 col-xs-6">
-									<div className="b-topBar__lang">
-										<div className="dropdown">
-											<a href="#" className="dropdown-toggle" data-toggle='dropdown'>Language</a>
-											<a className="m-langLink dropdown-toggle" data-toggle='dropdown' href="#"><span className="b-topBar__lang-flag m-en"></span>FR<span className="fa fa-caret-down"></span></a>
-											<ul className="dropdown-menu h-lang">
-												<li><a className="m-langLink dropdown-toggle" data-toggle='dropdown' href="#"><span className="b-topBar__lang-flag m-en"></span>EN</a></li>
-												<li><a className="m-langLink dropdown-toggle" data-toggle='dropdown' href="#"><span className="b-topBar__lang-flag m-es"></span>ES</a></li>
-												<li><a className="m-langLink dropdown-toggle" data-toggle='dropdown' href="#"><span className="b-topBar__lang-flag m-de"></span>DE</a></li>
-												<li><a className="m-langLink dropdown-toggle" data-toggle='dropdown' href="#"><span className="b-topBar__lang-flag m-fr"></span>FR</a></li>
-											</ul>
-										</div>
-									</div>
 								</div>
 							</div>
 						</div>
@@ -100,7 +86,7 @@ class Header extends React.Component {
 												</li>
 												
 												<li><Link to="/Aeroport">Aéroport de Roland-Garros</Link></li>
-												<li><Link to="/Saint-Marie">Sainte-Marie</Link></li>
+												<li><Link to="/Sainte-Marie">Sainte-Marie</Link></li>
 												<li><Link to="/Condition">Conditions générales de location</Link></li>
 												
 	

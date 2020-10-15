@@ -60,7 +60,7 @@ class Footer extends React.Component {
 											<em>06 92 370 380</em>
 										</div>
 										<div className="b-info__contacts-item">											
-											<span className="fa fa-fax"></span>
+											<span className="fa fa-map-marker"></span>
 											<em>97438 Sainte Marie</em>
 										</div>
 										<div className="b-info__contacts-item">
@@ -68,20 +68,23 @@ class Footer extends React.Component {
 				 				           <a href="/Contact" className="text">Contact</a>
 										</div>
 									</address>
-									<address className="b-info__map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14910.02604721598!2d55.511276!3d-20.891932!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdd91245bf0d2d552!2sGP+Location!5e0!3m2!1sfr!2sfr!4v1483431590185" width="264" height="144" frameborder="0" allowfullscreen></iframe>
-									</address>
+									<div className="map-responsive">
+										<address className="b-info__map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14910.02604721598!2d55.511276!3d-20.891932!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdd91245bf0d2d552!2sGP+Location!5e0!3m2!1sfr!2sfr!4v1483431590185" width="500" height="258" frameBorder="0" allowFullScreen></iframe>
+										</address>
+									</div>
+									
 								</div>
 								<div className="col-md-3 col-xs-6">
 									<address className="b-info__contacts wow slideInUp" data-wow-delay="0.3s">
 										<p>Prise en charge</p>
-										<div className="b-info__contacts-item">
+										<div className="b-info__contacts-item text-justify">
 				 				           <a href="/Aeroport" className="text">Aéroport de la Réunion Roland-Garros</a>
 										</div>
 										<div className="b-info__contacts-item">
 				 				           <a href="/Sainte-Marie" className="text">Sainte-Marie</a>
 										</div>
 										<div className="b-info__contacts-item">											
-				 				           <a href="/Mentions-légales" className="text">Mentions légales</a>
+				 				           <a href="/Mentions-legales" className="text">Mentions légales</a>
 										</div>
 									</address>
 									
@@ -93,13 +96,12 @@ class Footer extends React.Component {
 
 
 					<footer className="b-footer">
-						<a id="to-top" href="#this-is-top"><i className="fa fa-chevron-up"></i></a>
 						<div className="container">
 							<div className="row">
 								<div className="col-xs-4">
 									<div className="b-footer__company wow slideInLeft" data-wow-delay="0.3s">
 										<div className="b-nav__logo">
-											<h3><a href="home.html">GP<span>Location</span></a></h3>
+											<h3><a href="/">GP<span>Location</span></a></h3>
 										</div>
 										<p>Location de voiture à la Reunion</p>
 									</div>
@@ -116,13 +118,13 @@ class Footer extends React.Component {
 										</div>
 										<nav className="b-footer__content-nav">
 											<ul>
-												<li><Link to="/">Accueil</Link></li>
-												<li><Link to="/Aeroport">Aéroport de Roland-Garros</Link></li>
-												<li><Link to="/Saint">Sainte-Marie</Link></li>
-												<li><Link to="/Condition">Nos Conditions</Link></li>
+												<li><a href="/">Accueil</a></li>
+												<li><a href="/Aeroport">Aéroport de Roland-Garros</a></li>
+												<li><a href="/Sainte-Marie">Sainte-Marie</a></li>
+												<li><a href="/Condition">Nos Conditions</a></li>
 												
 												
-												<li><Link to="/Contact">Contact</Link></li>
+												<li><a href="/Contact">Contact</a></li>
 											</ul>
 										</nav>
 									</div>
