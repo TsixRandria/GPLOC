@@ -15,7 +15,7 @@ import Mentions from './Pages/Mentions/Mentions.js';
 
 import Footer from './Pages/Footer/Footer.js';
 
-import './App.scss';
+//import './App.scss';
 
 
 
