@@ -27,11 +27,12 @@ class HomePage extends React.Component {
 				<Slider />
 		        <Search />
 				{/* <EtapeBlock /> */}
-		       	<World />
-				<Welcome />
-				<HomeAuto />
+		       <World />
+			   <HomeAuto />
+				 	{/*<Welcome />
+				
 				<Home />
-				<Asks />
+				<Asks /> */}
 			</>
 		)
 	}
