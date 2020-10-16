@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_10_16_122419) do
+ActiveRecord::Schema.define(version: 2020_10_16_130346) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -23,6 +23,14 @@ ActiveRecord::Schema.define(version: 2020_10_16_122419) do
     t.text "message"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "tarifs", force: :cascade do |t|
+    t.integer "prix"
+    t.bigint "voiture_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["voiture_id"], name: "index_tarifs_on_voiture_id"
   end
 
   create_table "voiture_descriptions", force: :cascade do |t|
@@ -43,5 +51,6 @@ ActiveRecord::Schema.define(version: 2020_10_16_122419) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  add_foreign_key "tarifs", "voitures"
   add_foreign_key "voiture_descriptions", "voitures"
 end
