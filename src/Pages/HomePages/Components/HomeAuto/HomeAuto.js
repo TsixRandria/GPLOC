@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-
+import './Homeo.css';
  class HomeAuto extends Component {
     render() {
         return (
@@ -34,7 +34,7 @@ import { Link } from 'react-router-dom';
 												<p>Que vous veniez seul ou en famille, vous trouverez une voiture adaptée à vos besoins. Notre agence étant située à cinq minutes de l'aéroport de Saint-Denis, nous pouvons vous prendre en charge dès votre sortie de l'avion. Avec notre accueil personnalisé, vous n'aurez pas à attendre et pourrez partir directement rejoindre votre lieu de résidence ou explorer les alentours.</p>
 												<p>Nous pouvons vous fournir un siège bébé, un réhausseur ou encore un GPS si besoin. Notre agence étant ouverte sept jours sur sept, y compris les jours fériés, tout est mis en œuvre pour que vous passiez un séjour inoubliable sur l'île de la Réunion.
 
-D’un rapport qualité/prix très attractif, notre offre de location de voiture aura de quoi vous séduire !</p>
+												port qualité/prix très attractif, notre offre de location de voiture aura de quoi vous séduire !</p>
 											</div>
 											<div class="b-blog__posts-one-body-why wow zoomInUp" data-wow-delay="0.5s">
 												<div class="s-lineDownLeft  s-titleLeft">
@@ -125,10 +125,10 @@ D’un rapport qualité/prix très attractif, notre offre de location de voiture
 								<div class="row">
 								
 									<div class="col-xs-12 pull-center">
-									<h4>Avis de nos clients</h4>
-									<p property="aggregateRating" typeof="AggregateRating"><b><span property="ratingValue">4.8</span>/5</b> sur <span property="ratingCount">107</span> avis de <a href="../www.rentiles.fr/location-vehicules-reunion.html" target="_blank">Rentîles</a></p>
+									<h4 className="Avis ">Avis de nos clients</h4>
+									<p property="aggregateRating" typeof="AggregateRating"><b><span property="ratingValue">4.8</span>/5</b> sur <span property="ratingCount">107</span> </p>
 										<div class="clearfix"></div>
-										<p>Joel.P pour une location à Aéroport de la Réunion Roland Garros du Vendredi 13 Mars 2020 au Vendredi 20 Mars 2020 :
+										<p className="text-justify"> <strong> Joel.P pour une location à Aéroport de la Réunion Roland Garros du Vendredi 13 Mars 2020 au Vendredi 20 Mars 2020 :</strong><br></br>
 												“Très bon accueil, prix raisonnable et avoir fait très rapidement suite à notre départ précipité pour cause de pandémie !
 												Je recommande et n’hésiterai pas à l’occasion de réserver à nouveau !”</p>
 									</div>

@@ -29,9 +29,9 @@ class HomePage extends React.Component {
 				{/* <EtapeBlock /> */}
 		       <World />
 			   <HomeAuto />
-				 	{/*<Welcome />
+				 	<Welcome />
 				
-				<Home />
+				{/*<Home />
 				<Asks /> */}
 			</>
 		)
