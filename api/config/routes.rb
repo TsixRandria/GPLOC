@@ -3,4 +3,6 @@ Rails.application.routes.draw do
   resources :voitures do
     resources :voiture_descriptions
   end
+
+  resources :contacts
 end
